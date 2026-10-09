@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Flippy Fish</title>
+  <script src="/assets/js/script.js?v=20"></script>
+  <script src="/assets/js/loader-ui.js?v=e39jq3w37n"></script>
+  <script src="/assets/js/game-loader.js?v=e39jq3w37n" data-title="Flippy Fish"></script>
+  <script>
+    GameLoader.unity([
+      ["Build/FlippyFishHTML.data.unityweb", 18551153],
+      ["Build/FlippyFishHTML.wasm.code.unityweb", 3631255],
+      ["Build/FlippyFishHTML.wasm.framework.unityweb", 80501],
+    ]);
+  </script>
+  <base href="https://cdn.jsdelivr.net/gh/55gms/assets@main/misc/flippyfish/">
+
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="TemplateData/style.css" />
+  <script src="TemplateData/UnityProgress.js"></script>
+  <script src="Build/UnityLoader.js"></script>
+  <script>
+    var unityInstance = UnityLoader.instantiate(
+      "unityContainer",
+      "Build/FlippyFishHTML.json",
+      { onProgress: UnityProgress }
+    );
+  </script>
+</head>
+
+<body style="margin: 0; overflow: hidden; background: #000">
+  <div id="unityContainer" style="
+        width: min(100vw, 160vh);
+        height: min(100vh, 62.5vw);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      "></div>
+</body>
+
+</html>

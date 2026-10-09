@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Google</title>
+    <script>
+        // The "Play Now!" screen is gone: old links land straight on the game.
+        const link = (new URLSearchParams(location.search).get('link') || '').replace(/^\/+|\/+$/g, '');
+        location.replace(link ? `/misc/${encodeURIComponent(link)}/index.html` : '/g');
+    </script>
+</head>
+
+<body></body>
+
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <script src="/assets/js/script.js?v=20"></script>
+    <base href="https://cdn.jsdelivr.net/gh/55gms/assets@main/misc/footballbros/">
+    <title>Football Bros | 55GMS</title>
+    <meta name="description" content="Online multiplayer football! Bone crushing hits, long bombs, and tons more!" />
+    <meta id="viewport" name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="shortcut icon" type="image/png" href="./favicon.png">
+    <meta name="author" content="Blue Wizard Digital">
+
+    <script type="text/javascript" src="./FootballBros.js?th=1786477653"></script>
+
+    <script>
+        window.addEventListener("touchmove", function (event) { event.preventDefault(); }, { capture: false, passive: false });
+        if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
+            var meta = document.getElementById("viewport");
+            meta.setAttribute('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
+        }
+        window.addEventListener('keydown', function (e) {
+            var tag = e.target.tagName;
+            if (tag !== 'INPUT' && tag !== 'TEXTAREA') {
+                e.preventDefault();
+            }
+        });
+        var aCo = "US";
+    </script>
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000000;
+            color: orange;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        #openfl-content {
+            background: #000000;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+    <script>
+        // The game calls these on the page for ads and analytics; here they
+        // show nothing and hand control straight back to the game.
+        var aipDisplayTag = { display: function () { }, refresh: function () { }, destroy: function () { } };
+
+        function SendEvent() { }
+        function GamePlayStart() { }
+        function GamePlayStop() { }
+        function HappyTime() { }
+        function SetOptiAdUnit() { }
+        function SetCGInviteLink() { }
+        function RefreshSideAd() { }
+        function ShowAdPosition() { }
+
+        function ShowVideo() {
+            Main.DoneVideoAd();
+            window.focus();
+            document.getElementById('openfl-content').focus();
+        }
+
+        function ShowAdBreak() {
+            Main.DoneInterstitialAd(false);
+        }
+
+        // Also how the game clears the loading sprites ("loading").
+        function HideAd(divName, justClear) {
+            var aDiv = document.getElementById(divName);
+            if (aDiv != null) {
+                if (!justClear) {
+                    aDiv.style.left = "-9999px";
+                    aDiv.style.pointerEvents = "none";
+                }
+                aDiv.innerHTML = "";
+            }
+        }
+
+        function HideAllAds() { }
+    </script>
+
+    <!-- Firebase: Google sign-in and cloud saves -->
+    <script src="./firebase-app.js"></script>
+    <script src="./firebase-auth.js"></script>
+    <script src="./firebase-firestore.js"></script>
+
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyAFCwYdbkLozIgtH5zuGydcjk_LNhYnve0",
+            authDomain: "football-bros-8f1b3.firebaseapp.com",
+            projectId: "football-bros-8f1b3",
+            storageBucket: "football-bros-8f1b3.appspot.com",
+            messagingSenderId: "807434051106",
+            appId: "1:807434051106:web:7e2fd59782e7c13165f47b"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+        const auth = firebase.auth();
+        const db = firebase.firestore();
+        var userData = "";
+
+        function triggerSignIn() {
+            var provider = new firebase.auth.GoogleAuthProvider();
+            auth.signInWithPopup(provider);
+        }
+
+        function saveGameData(gameDataValue) {
+            var userId = auth.currentUser.uid;
+            userData = gameDataValue;
+            db.collection('users').doc(userId).set({
+                gameData: gameDataValue
+            }).catch(function (error) {
+                console.error('Error saving game data:', error);
+            });
+        }
+
+        function loadGameData() { return userData; }
+
+        function loadGameDataAsync() {
+            var userId = auth.currentUser.uid;
+            db.collection('users').doc(userId).get().then(function (doc) {
+                if (doc.exists) {
+                    userData = doc.data().gameData;
+                    if (typeof Main != "undefined") {
+                        Main.LoadDataComplete();
+                    }
+                }
+            }).catch(function (error) {
+                console.error('Error loading game data:', error);
+            });
+        }
+
+        auth.onAuthStateChanged(function (user) {
+            if (user) {
+                loadGameDataAsync();
+            }
+        });
+
+        function signOut() {
+            auth.signOut().then(() => {
+                Main.SignOutComplete();
+            });
+        }
+
+        function isUserLoggedIn() {
+            return auth.currentUser !== null;
+        }
+    </script>
+
+</head>
+
+<body style="overflow:hidden;">
+    <noscript>Enable JavaScript bro!</noscript>
+
+    <div id="loading"
+        style="position: absolute; z-index: 15; top: 60%; left: 50%; transform: translate(-50%, 0); background: black;">
+        <center><img src="assets/loading4.png"><br />
+            <img src="assets/fbro.png">
+            <img src="assets/bbbro.png">
+            <img src="assets/sbro.png">
+            <img src="assets/wbro.png">
+            <img src="assets/kbro.png">
+            <img src="assets/kartbro.png">
+            <img src="assets/bbro.png">
+        </center>
+    </div>
+
+    <div id="game2" style="width: 100%; height: 100%; ">
+        <div id="openfl-content" onblur="window.focus();" style="width: 100%; float:left;">
+            <script type="text/javascript">
+                lime.embed("FootballBros", "openfl-content", 0, 0, { parameters: {} });
+            </script>
+        </div>
+        <!-- The game toggles this element around video ads, so it has to exist. -->
+        <div id="preroll"
+            style="width: 960px; height: 540px; display: none; position: absolute; top: 50%; left: 50%; z-index: 100; transform: translate(-50%, -50%);">
+        </div>
+    </div>
+
+    <script>
+        var scrollerMessage = "   NEW ROSTERS AND NOW WITH UP TO 6 PLAYERS IN ONLINE GAMES!!!";
+
+        const element = document.getElementById('openfl-content');
+        function keepFocus() {
+            element.focus();
+        }
+        element.addEventListener('blur', keepFocus);
+        element.addEventListener('focusout', keepFocus);
+    </script>
+</body>
+
+</html>

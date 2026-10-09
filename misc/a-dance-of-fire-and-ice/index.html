@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>A Dance of Fire And Ice</title>
+  <script src="Build/UnityLoader.js"></script>
+  <script src="/assets/js/script.js?v=20"></script>
+  <script src="/assets/js/loader-ui.js?v=e39jq3w37n"></script>
+  <script src="/assets/js/game-loader.js?v=e39jq3w37n" data-title="A Dance Of Fire &amp; Ice"></script>
+  <script>
+    GameLoader.unity([
+      ["Build/adofaiii4.data.unityweb", 13679647],
+      ["Build/adofaiii4.wasm.code.unityweb", 5238989],
+      ["Build/adofaiii4.wasm.framework.unityweb", 95636],
+    ]);
+  </script>
+  <base href="https://cdn.jsdelivr.net/gh/55gms/assets@main/misc/a-dance-of-fire-and-ice/">
+  <script>
+    var gameInstance = UnityLoader.instantiate(
+      "gameContainer",
+      "Build/adofaiii4.json"
+    );
+  </script>
+  <link rel="icon" type="image/x-icon" href="/img/canvas.ico" />
+</head>
+
+<body style="margin: 0px; overflow: hidden; background: #000">
+  <div id="gameContainer" style="
+        width: min(100vw, 200vh);
+        height: min(100vh, 50vw);
+        margin: auto;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      "></div>
+</body>
+
+</html>

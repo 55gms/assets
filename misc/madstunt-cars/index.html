@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/assets/css/unity-cdn-loader.css?v=e39jq3w37n">
+    <script type="module" src="/assets/js/unity-cdn-loader.js?v=e39jq3w37n"></script>
+    <base href="https://cdn.jsdelivr.net/gh/55gms/assets@main/misc/madstunt-cars/">
+  <title>Madalin Stunt Cars 3</title>
+</head>
+<link rel="icon" type="image/x-icon" href="img/index.jpg" />
+<link rel="stylesheet" href="TemplateData/style.css" />
+
+
+
+<body style="margin: 0">
+    <div id="unity-cdn-loading" data-title="Madalin Stunt Cars 3" role="status" aria-live="polite">LOADING...</div>
+
+  <div class="webgl-content">
+    <div id="gameContainer" style="width: 100vw; height: 100vh;"></div>
+  </div>
+
+    <template id="unity-game-scripts">
+<script src="TemplateData/UnityProgress.js"></script>
+<script src="js/unityloader35.js"></script>
+<script>
+    var gameInstance = UnityLoader.instantiate("gameContainer", "game.json", {
+      onProgress: UnityProgress,
+      Module: {
+        onRuntimeInitialized: function () {
+          UnityProgress(gameInstance, "complete");
+        },
+      },
+    });
+  </script>
+    </template>
+</body>
+
+</html>

@@ -383,7 +383,7 @@
         (asset) =>
           new URL(
             "./assets/" + asset.assetId + "." + asset.dataFormat,
-            location
+            document.baseURI
           ).href
       );
       return () =>

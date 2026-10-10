@@ -2,8 +2,8 @@
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
-<script src="/assets/js/loader-ui.js?v=e39jq3w37n"></script>
-<script src="/assets/js/game-loader.js?v=e39jq3w37n" data-title="Santy is Home"></script>
+<script src="/assets/js/loader-ui.js?v=2re0106df4"></script>
+<script src="/assets/js/game-loader.js?v=2re0106df4" data-title="Santy is Home"></script>
 <script>
   GameLoader.unity([
     ["Build/SantyIsHome.loader.js",13438],
@@ -60,7 +60,7 @@
         dataUrl: "Build/SantyIsHome.data",
         frameworkUrl: "Build/SantyIsHome.framework.js",
         codeUrl: "Build/SantyIsHome.wasm",
-        streamingAssetsUrl: "StreamingAssets",
+        streamingAssetsUrl: new URL("StreamingAssets", document.baseURI).href,
         companyName: "Kulu",
         productName: "Santy is Home",
         productVersion: "0.1",

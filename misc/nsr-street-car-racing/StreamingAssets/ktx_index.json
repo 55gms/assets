@@ -1,0 +1,1608 @@
+{
+    "entries": [
+        {
+            "key": "None",
+            "path": "None"
+        },
+        {
+            "key": "Texture_Characters_Amir",
+            "path": "Textures/Characters/Amir.ktx2"
+        },
+        {
+            "key": "Texture_Characters_Niyan",
+            "path": "Textures/Characters/Niyan.ktx2"
+        },
+        {
+            "key": "Texture_Characters_Soheil",
+            "path": "Textures/Characters/Soheil.ktx2"
+        },
+        {
+            "key": "Texture_Lastiks_Lastik1",
+            "path": "Textures/Lastiks/Lastik1.ktx2"
+        },
+        {
+            "key": "Texture_Lastiks_Lastik10",
+            "path": "Textures/Lastiks/Lastik10.ktx2"
+        },
+        {
+            "key": "Texture_Lastiks_Lastik11",
+            "path": "Textures/Lastiks/Lastik11.ktx2"
+        },
+        {
+            "key": "Texture_Lastiks_Lastik12",
+            "path": "Textures/Lastiks/Lastik12.ktx2"
+        },
+        {
+            "key": "Texture_Lastiks_Lastik13",
+            "path": "Textures/Lastiks/Lastik13.ktx2"
+        },
+        {
+            "key": "Texture_Lastiks_Lastik14",
+            "path": "Textures/Lastiks/Lastik14.ktx2"
+        },
+        {
+            "key": "Texture_Lastiks_Lastik15",
+            "path": "Textures/Lastiks/Lastik15.ktx2"
+        },
+        {
+            "key": "Texture_Lastiks_Lastik16",
+            "path": "Textures/Lastiks/Lastik16.ktx2"
+        },
+        {
+            "key": "Texture_Lastiks_Lastik2",
+            "path": "Textures/Lastiks/Lastik2.ktx2"
+        },
+        {
+            "key": "Texture_Lastiks_Lastik3",
+            "path": "Textures/Lastiks/Lastik3.ktx2"
+        },
+        {
+            "key": "Texture_Lastiks_Lastik4",
+            "path": "Textures/Lastiks/Lastik4.ktx2"
+        },
+        {
+            "key": "Texture_Lastiks_Lastik5",
+            "path": "Textures/Lastiks/Lastik5.ktx2"
+        },
+        {
+            "key": "Texture_Lastiks_Lastik6",
+            "path": "Textures/Lastiks/Lastik6.ktx2"
+        },
+        {
+            "key": "Texture_Lastiks_Lastik7",
+            "path": "Textures/Lastiks/Lastik7.ktx2"
+        },
+        {
+            "key": "Texture_Lastiks_Lastik8",
+            "path": "Textures/Lastiks/Lastik8.ktx2"
+        },
+        {
+            "key": "Texture_Lastiks_Lastik9",
+            "path": "Textures/Lastiks/Lastik9.ktx2"
+        },
+        {
+            "key": "Texture_Misc_Carbon01",
+            "path": "Textures/Misc/Carbon01.ktx2"
+        },
+        {
+            "key": "Texture_Misc_Cuttoff_Matcap_Soft_Garage",
+            "path": "Textures/Misc/Cuttoff_Matcap-Soft-Garage.ktx2"
+        },
+        {
+            "key": "Texture_Misc_Grill01",
+            "path": "Textures/Misc/Grill01.ktx2"
+        },
+        {
+            "key": "Texture_Misc_traffic_car_carbody_A",
+            "path": "Textures/Misc/traffic_car_carbody_A.ktx2"
+        },
+        {
+            "key": "Texture_Misc_traffic_car_carbody_B",
+            "path": "Textures/Misc/traffic_car_carbody_B.ktx2"
+        },
+        {
+            "key": "Texture_Misc_traffic_car_lamps",
+            "path": "Textures/Misc/traffic_car_lamps.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Animals_Animal_01",
+            "path": "Textures/Car_Decals/Animals/Animal_01.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Animals_Animal_02",
+            "path": "Textures/Car_Decals/Animals/Animal_02.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Animals_Animal_03",
+            "path": "Textures/Car_Decals/Animals/Animal_03.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Animals_Animal_04",
+            "path": "Textures/Car_Decals/Animals/Animal_04.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Animals_Animal_05",
+            "path": "Textures/Car_Decals/Animals/Animal_05.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Animals_Animal_06",
+            "path": "Textures/Car_Decals/Animals/Animal_06.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Animals_Animal_07",
+            "path": "Textures/Car_Decals/Animals/Animal_07.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Animals_Animal_08",
+            "path": "Textures/Car_Decals/Animals/Animal_08.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Animals_Animal_09",
+            "path": "Textures/Car_Decals/Animals/Animal_09.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Animals_Animal_10",
+            "path": "Textures/Car_Decals/Animals/Animal_10.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Animals_Animal_11",
+            "path": "Textures/Car_Decals/Animals/Animal_11.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Arrows_Arrow_01",
+            "path": "Textures/Car_Decals/Arrows/Arrow_01.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Arrows_Arrow_02",
+            "path": "Textures/Car_Decals/Arrows/Arrow_02.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Arrows_Arrow_03",
+            "path": "Textures/Car_Decals/Arrows/Arrow_03.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Arrows_Arrow_04",
+            "path": "Textures/Car_Decals/Arrows/Arrow_04.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Arrows_Arrow_05",
+            "path": "Textures/Car_Decals/Arrows/Arrow_05.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Arrows_Arrow_06",
+            "path": "Textures/Car_Decals/Arrows/Arrow_06.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Arrows_Arrow_07",
+            "path": "Textures/Car_Decals/Arrows/Arrow_07.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Arrows_Arrow_08",
+            "path": "Textures/Car_Decals/Arrows/Arrow_08.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Arrows_Arrow_09",
+            "path": "Textures/Car_Decals/Arrows/Arrow_09.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Arrows_Arrow_10",
+            "path": "Textures/Car_Decals/Arrows/Arrow_10.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Arrows_Arrow_11",
+            "path": "Textures/Car_Decals/Arrows/Arrow_11.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Arrows_Arrow_12",
+            "path": "Textures/Car_Decals/Arrows/Arrow_12.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Arrows_Arrow_13",
+            "path": "Textures/Car_Decals/Arrows/Arrow_13.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Arrows_Arrow_14",
+            "path": "Textures/Car_Decals/Arrows/Arrow_14.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Arrows_Arrow_15",
+            "path": "Textures/Car_Decals/Arrows/Arrow_15.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Arrows_Arrow_16",
+            "path": "Textures/Car_Decals/Arrows/Arrow_16.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Arrows_Arrow_17",
+            "path": "Textures/Car_Decals/Arrows/Arrow_17.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Arrows_Arrow_18",
+            "path": "Textures/Car_Decals/Arrows/Arrow_18.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Badges_Badge_01",
+            "path": "Textures/Car_Decals/Badges/Badge_01.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Badges_Badge_02",
+            "path": "Textures/Car_Decals/Badges/Badge_02.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Badges_Badge_03",
+            "path": "Textures/Car_Decals/Badges/Badge_03.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Badges_Badge_04",
+            "path": "Textures/Car_Decals/Badges/Badge_04.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Badges_Badge_05",
+            "path": "Textures/Car_Decals/Badges/Badge_05.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Badges_Badge_06",
+            "path": "Textures/Car_Decals/Badges/Badge_06.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Badges_Badge_07",
+            "path": "Textures/Car_Decals/Badges/Badge_07.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Badges_Badge_08",
+            "path": "Textures/Car_Decals/Badges/Badge_08.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Badges_Badge_09",
+            "path": "Textures/Car_Decals/Badges/Badge_09.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Badges_Badge_10",
+            "path": "Textures/Car_Decals/Badges/Badge_10.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Badges_Badge_11",
+            "path": "Textures/Car_Decals/Badges/Badge_11.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Badges_Badge_12",
+            "path": "Textures/Car_Decals/Badges/Badge_12.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Camos_Camo_01",
+            "path": "Textures/Car_Decals/Camos/Camo_01.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Camos_Camo_02",
+            "path": "Textures/Car_Decals/Camos/Camo_02.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Camos_Camo_03",
+            "path": "Textures/Car_Decals/Camos/Camo_03.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Camos_Camo_04",
+            "path": "Textures/Car_Decals/Camos/Camo_04.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Camos_Camo_05",
+            "path": "Textures/Car_Decals/Camos/Camo_05.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Camos_Camo_06",
+            "path": "Textures/Car_Decals/Camos/Camo_06.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Camos_Camo_07",
+            "path": "Textures/Car_Decals/Camos/Camo_07.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Camos_Camo_08",
+            "path": "Textures/Car_Decals/Camos/Camo_08.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Camos_Camo_09",
+            "path": "Textures/Car_Decals/Camos/Camo_09.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Camos_Camo_10",
+            "path": "Textures/Car_Decals/Camos/Camo_10.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Camos_Camo_11",
+            "path": "Textures/Car_Decals/Camos/Camo_11.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Circles_Circle_01",
+            "path": "Textures/Car_Decals/Circles/Circle_01.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Circles_Circle_02",
+            "path": "Textures/Car_Decals/Circles/Circle_02.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Circles_Circle_03",
+            "path": "Textures/Car_Decals/Circles/Circle_03.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Circles_Circle_04",
+            "path": "Textures/Car_Decals/Circles/Circle_04.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Circles_Circle_05",
+            "path": "Textures/Car_Decals/Circles/Circle_05.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Circles_Circle_06",
+            "path": "Textures/Car_Decals/Circles/Circle_06.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Circles_Circle_07",
+            "path": "Textures/Car_Decals/Circles/Circle_07.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Circles_Circle_08",
+            "path": "Textures/Car_Decals/Circles/Circle_08.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Circles_Circle_09",
+            "path": "Textures/Car_Decals/Circles/Circle_09.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_01",
+            "path": "Textures/Car_Decals/Dirts/Dirt_01.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_02",
+            "path": "Textures/Car_Decals/Dirts/Dirt_02.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_03",
+            "path": "Textures/Car_Decals/Dirts/Dirt_03.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_04",
+            "path": "Textures/Car_Decals/Dirts/Dirt_04.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_05",
+            "path": "Textures/Car_Decals/Dirts/Dirt_05.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_06",
+            "path": "Textures/Car_Decals/Dirts/Dirt_06.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_07",
+            "path": "Textures/Car_Decals/Dirts/Dirt_07.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_08",
+            "path": "Textures/Car_Decals/Dirts/Dirt_08.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_09",
+            "path": "Textures/Car_Decals/Dirts/Dirt_09.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_10",
+            "path": "Textures/Car_Decals/Dirts/Dirt_10.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_11",
+            "path": "Textures/Car_Decals/Dirts/Dirt_11.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_12",
+            "path": "Textures/Car_Decals/Dirts/Dirt_12.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_13",
+            "path": "Textures/Car_Decals/Dirts/Dirt_13.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_14",
+            "path": "Textures/Car_Decals/Dirts/Dirt_14.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_15",
+            "path": "Textures/Car_Decals/Dirts/Dirt_15.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_16",
+            "path": "Textures/Car_Decals/Dirts/Dirt_16.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_17",
+            "path": "Textures/Car_Decals/Dirts/Dirt_17.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_18",
+            "path": "Textures/Car_Decals/Dirts/Dirt_18.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_19",
+            "path": "Textures/Car_Decals/Dirts/Dirt_19.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_20",
+            "path": "Textures/Car_Decals/Dirts/Dirt_20.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Dirts_Dirt_21",
+            "path": "Textures/Car_Decals/Dirts/Dirt_21.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Emojis_Emoji_01",
+            "path": "Textures/Car_Decals/Emojis/Emoji_01.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Emojis_Emoji_02",
+            "path": "Textures/Car_Decals/Emojis/Emoji_02.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Emojis_Emoji_03",
+            "path": "Textures/Car_Decals/Emojis/Emoji_03.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Emojis_Emoji_04",
+            "path": "Textures/Car_Decals/Emojis/Emoji_04.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Emojis_Emoji_05",
+            "path": "Textures/Car_Decals/Emojis/Emoji_05.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Emojis_Emoji_06",
+            "path": "Textures/Car_Decals/Emojis/Emoji_06.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Emojis_Emoji_07",
+            "path": "Textures/Car_Decals/Emojis/Emoji_07.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Emojis_Emoji_08",
+            "path": "Textures/Car_Decals/Emojis/Emoji_08.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Emojis_Emoji_09",
+            "path": "Textures/Car_Decals/Emojis/Emoji_09.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Emojis_Emoji_10",
+            "path": "Textures/Car_Decals/Emojis/Emoji_10.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Emojis_Emoji_11",
+            "path": "Textures/Car_Decals/Emojis/Emoji_11.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Emojis_Emoji_12",
+            "path": "Textures/Car_Decals/Emojis/Emoji_12.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flames_Flame_01",
+            "path": "Textures/Car_Decals/Flames/Flame_01.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flames_Flame_02",
+            "path": "Textures/Car_Decals/Flames/Flame_02.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flames_Flame_03",
+            "path": "Textures/Car_Decals/Flames/Flame_03.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flames_Flame_04",
+            "path": "Textures/Car_Decals/Flames/Flame_04.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flames_Flame_05",
+            "path": "Textures/Car_Decals/Flames/Flame_05.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flames_Flame_06",
+            "path": "Textures/Car_Decals/Flames/Flame_06.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flames_Flame_07",
+            "path": "Textures/Car_Decals/Flames/Flame_07.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flames_Flame_08",
+            "path": "Textures/Car_Decals/Flames/Flame_08.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flames_Flame_09",
+            "path": "Textures/Car_Decals/Flames/Flame_09.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flames_Flame_10",
+            "path": "Textures/Car_Decals/Flames/Flame_10.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flames_Flame_11",
+            "path": "Textures/Car_Decals/Flames/Flame_11.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flowers_Flower_01",
+            "path": "Textures/Car_Decals/Flowers/Flower_01.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flowers_Flower_02",
+            "path": "Textures/Car_Decals/Flowers/Flower_02.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flowers_Flower_03",
+            "path": "Textures/Car_Decals/Flowers/Flower_03.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flowers_Flower_04",
+            "path": "Textures/Car_Decals/Flowers/Flower_04.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flowers_Flower_05",
+            "path": "Textures/Car_Decals/Flowers/Flower_05.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flowers_Flower_06",
+            "path": "Textures/Car_Decals/Flowers/Flower_06.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flowers_Flower_07",
+            "path": "Textures/Car_Decals/Flowers/Flower_07.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flowers_Flower_08",
+            "path": "Textures/Car_Decals/Flowers/Flower_08.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flowers_Flower_09",
+            "path": "Textures/Car_Decals/Flowers/Flower_09.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flowers_Flower_10",
+            "path": "Textures/Car_Decals/Flowers/Flower_10.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flowers_Flower_11",
+            "path": "Textures/Car_Decals/Flowers/Flower_11.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flowers_Flower_12",
+            "path": "Textures/Car_Decals/Flowers/Flower_12.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Flowers_Flower_13",
+            "path": "Textures/Car_Decals/Flowers/Flower_13.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Gears_Gear_01",
+            "path": "Textures/Car_Decals/Gears/Gear_01.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Gears_Gear_02",
+            "path": "Textures/Car_Decals/Gears/Gear_02.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Gears_Gear_03",
+            "path": "Textures/Car_Decals/Gears/Gear_03.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Gears_Gear_04",
+            "path": "Textures/Car_Decals/Gears/Gear_04.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Gears_Gear_05",
+            "path": "Textures/Car_Decals/Gears/Gear_05.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Gears_Gear_06",
+            "path": "Textures/Car_Decals/Gears/Gear_06.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Gears_Gear_07",
+            "path": "Textures/Car_Decals/Gears/Gear_07.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Gears_Gear_08",
+            "path": "Textures/Car_Decals/Gears/Gear_08.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Gears_Gear_09",
+            "path": "Textures/Car_Decals/Gears/Gear_09.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Gears_Gear_10",
+            "path": "Textures/Car_Decals/Gears/Gear_10.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Gears_Gear_11",
+            "path": "Textures/Car_Decals/Gears/Gear_11.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Lines_Line_01",
+            "path": "Textures/Car_Decals/Lines/Line_01.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Lines_Line_02",
+            "path": "Textures/Car_Decals/Lines/Line_02.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Lines_Line_03",
+            "path": "Textures/Car_Decals/Lines/Line_03.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Lines_Line_04",
+            "path": "Textures/Car_Decals/Lines/Line_04.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Lines_Line_05",
+            "path": "Textures/Car_Decals/Lines/Line_05.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Lines_Line_06",
+            "path": "Textures/Car_Decals/Lines/Line_06.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Lines_Line_07",
+            "path": "Textures/Car_Decals/Lines/Line_07.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Lines_Line_08",
+            "path": "Textures/Car_Decals/Lines/Line_08.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Lines_Line_09",
+            "path": "Textures/Car_Decals/Lines/Line_09.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Lines_Line_10",
+            "path": "Textures/Car_Decals/Lines/Line_10.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Lines_Line_11",
+            "path": "Textures/Car_Decals/Lines/Line_11.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Lines_Line_12",
+            "path": "Textures/Car_Decals/Lines/Line_12.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Lines_Line_13",
+            "path": "Textures/Car_Decals/Lines/Line_13.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Lines_Line_14",
+            "path": "Textures/Car_Decals/Lines/Line_14.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_01",
+            "path": "Textures/Car_Decals/Numbers/Number_01.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_02",
+            "path": "Textures/Car_Decals/Numbers/Number_02.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_03",
+            "path": "Textures/Car_Decals/Numbers/Number_03.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_04",
+            "path": "Textures/Car_Decals/Numbers/Number_04.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_05",
+            "path": "Textures/Car_Decals/Numbers/Number_05.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_06",
+            "path": "Textures/Car_Decals/Numbers/Number_06.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_07",
+            "path": "Textures/Car_Decals/Numbers/Number_07.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_08",
+            "path": "Textures/Car_Decals/Numbers/Number_08.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_09",
+            "path": "Textures/Car_Decals/Numbers/Number_09.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_10",
+            "path": "Textures/Car_Decals/Numbers/Number_10.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_11",
+            "path": "Textures/Car_Decals/Numbers/Number_11.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_12",
+            "path": "Textures/Car_Decals/Numbers/Number_12.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_13",
+            "path": "Textures/Car_Decals/Numbers/Number_13.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_14",
+            "path": "Textures/Car_Decals/Numbers/Number_14.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_15",
+            "path": "Textures/Car_Decals/Numbers/Number_15.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_16",
+            "path": "Textures/Car_Decals/Numbers/Number_16.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_17",
+            "path": "Textures/Car_Decals/Numbers/Number_17.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_18",
+            "path": "Textures/Car_Decals/Numbers/Number_18.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_19",
+            "path": "Textures/Car_Decals/Numbers/Number_19.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_20",
+            "path": "Textures/Car_Decals/Numbers/Number_20.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_21",
+            "path": "Textures/Car_Decals/Numbers/Number_21.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_22",
+            "path": "Textures/Car_Decals/Numbers/Number_22.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_23",
+            "path": "Textures/Car_Decals/Numbers/Number_23.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_24",
+            "path": "Textures/Car_Decals/Numbers/Number_24.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_25",
+            "path": "Textures/Car_Decals/Numbers/Number_25.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_26",
+            "path": "Textures/Car_Decals/Numbers/Number_26.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_27",
+            "path": "Textures/Car_Decals/Numbers/Number_27.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_28",
+            "path": "Textures/Car_Decals/Numbers/Number_28.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_29",
+            "path": "Textures/Car_Decals/Numbers/Number_29.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Numbers_Number_30",
+            "path": "Textures/Car_Decals/Numbers/Number_30.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Polices_Police_01",
+            "path": "Textures/Car_Decals/Polices/Police_01.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Polices_Police_03",
+            "path": "Textures/Car_Decals/Polices/Police_03.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Polices_Police_04",
+            "path": "Textures/Car_Decals/Polices/Police_04.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Polices_Police_06",
+            "path": "Textures/Car_Decals/Polices/Police_06.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Polices_Police_08",
+            "path": "Textures/Car_Decals/Polices/Police_08.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Polices_Police_09",
+            "path": "Textures/Car_Decals/Polices/Police_09.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Shapes_Shape_01",
+            "path": "Textures/Car_Decals/Shapes/Shape_01.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Shapes_Shape_02",
+            "path": "Textures/Car_Decals/Shapes/Shape_02.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Shapes_Shape_03",
+            "path": "Textures/Car_Decals/Shapes/Shape_03.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Shapes_Shape_04",
+            "path": "Textures/Car_Decals/Shapes/Shape_04.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Shapes_Shape_05",
+            "path": "Textures/Car_Decals/Shapes/Shape_05.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Shapes_Shape_06",
+            "path": "Textures/Car_Decals/Shapes/Shape_06.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Shapes_Shape_07",
+            "path": "Textures/Car_Decals/Shapes/Shape_07.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Shapes_Shape_08",
+            "path": "Textures/Car_Decals/Shapes/Shape_08.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Shapes_Shape_09",
+            "path": "Textures/Car_Decals/Shapes/Shape_09.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Shapes_Shape_10",
+            "path": "Textures/Car_Decals/Shapes/Shape_10.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Shapes_Shape_11",
+            "path": "Textures/Car_Decals/Shapes/Shape_11.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_02",
+            "path": "Textures/Car_Decals/Stickers/Sticker_02.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_03",
+            "path": "Textures/Car_Decals/Stickers/Sticker_03.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_04",
+            "path": "Textures/Car_Decals/Stickers/Sticker_04.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_05",
+            "path": "Textures/Car_Decals/Stickers/Sticker_05.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_06",
+            "path": "Textures/Car_Decals/Stickers/Sticker_06.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_07",
+            "path": "Textures/Car_Decals/Stickers/Sticker_07.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_08",
+            "path": "Textures/Car_Decals/Stickers/Sticker_08.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_09",
+            "path": "Textures/Car_Decals/Stickers/Sticker_09.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_10",
+            "path": "Textures/Car_Decals/Stickers/Sticker_10.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_11",
+            "path": "Textures/Car_Decals/Stickers/Sticker_11.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_12",
+            "path": "Textures/Car_Decals/Stickers/Sticker_12.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_13",
+            "path": "Textures/Car_Decals/Stickers/Sticker_13.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_14",
+            "path": "Textures/Car_Decals/Stickers/Sticker_14.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_16",
+            "path": "Textures/Car_Decals/Stickers/Sticker_16.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_17",
+            "path": "Textures/Car_Decals/Stickers/Sticker_17.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_18",
+            "path": "Textures/Car_Decals/Stickers/Sticker_18.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_19",
+            "path": "Textures/Car_Decals/Stickers/Sticker_19.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_20",
+            "path": "Textures/Car_Decals/Stickers/Sticker_20.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_21",
+            "path": "Textures/Car_Decals/Stickers/Sticker_21.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_22",
+            "path": "Textures/Car_Decals/Stickers/Sticker_22.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_23",
+            "path": "Textures/Car_Decals/Stickers/Sticker_23.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_24",
+            "path": "Textures/Car_Decals/Stickers/Sticker_24.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_25",
+            "path": "Textures/Car_Decals/Stickers/Sticker_25.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_26",
+            "path": "Textures/Car_Decals/Stickers/Sticker_26.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_27",
+            "path": "Textures/Car_Decals/Stickers/Sticker_27.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_28",
+            "path": "Textures/Car_Decals/Stickers/Sticker_28.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_29",
+            "path": "Textures/Car_Decals/Stickers/Sticker_29.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_30",
+            "path": "Textures/Car_Decals/Stickers/Sticker_30.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_31",
+            "path": "Textures/Car_Decals/Stickers/Sticker_31.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_32",
+            "path": "Textures/Car_Decals/Stickers/Sticker_32.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_33",
+            "path": "Textures/Car_Decals/Stickers/Sticker_33.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_34",
+            "path": "Textures/Car_Decals/Stickers/Sticker_34.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_35",
+            "path": "Textures/Car_Decals/Stickers/Sticker_35.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_36",
+            "path": "Textures/Car_Decals/Stickers/Sticker_36.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_37",
+            "path": "Textures/Car_Decals/Stickers/Sticker_37.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_38",
+            "path": "Textures/Car_Decals/Stickers/Sticker_38.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_39",
+            "path": "Textures/Car_Decals/Stickers/Sticker_39.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_40",
+            "path": "Textures/Car_Decals/Stickers/Sticker_40.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_42",
+            "path": "Textures/Car_Decals/Stickers/Sticker_42.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_43",
+            "path": "Textures/Car_Decals/Stickers/Sticker_43.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_44",
+            "path": "Textures/Car_Decals/Stickers/Sticker_44.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_45",
+            "path": "Textures/Car_Decals/Stickers/Sticker_45.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_46",
+            "path": "Textures/Car_Decals/Stickers/Sticker_46.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_47",
+            "path": "Textures/Car_Decals/Stickers/Sticker_47.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_48",
+            "path": "Textures/Car_Decals/Stickers/Sticker_48.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_49",
+            "path": "Textures/Car_Decals/Stickers/Sticker_49.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_50",
+            "path": "Textures/Car_Decals/Stickers/Sticker_50.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_51",
+            "path": "Textures/Car_Decals/Stickers/Sticker_51.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_52",
+            "path": "Textures/Car_Decals/Stickers/Sticker_52.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_53",
+            "path": "Textures/Car_Decals/Stickers/Sticker_53.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_54",
+            "path": "Textures/Car_Decals/Stickers/Sticker_54.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_55",
+            "path": "Textures/Car_Decals/Stickers/Sticker_55.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_56",
+            "path": "Textures/Car_Decals/Stickers/Sticker_56.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_57",
+            "path": "Textures/Car_Decals/Stickers/Sticker_57.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_58",
+            "path": "Textures/Car_Decals/Stickers/Sticker_58.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_59",
+            "path": "Textures/Car_Decals/Stickers/Sticker_59.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_60",
+            "path": "Textures/Car_Decals/Stickers/Sticker_60.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_61",
+            "path": "Textures/Car_Decals/Stickers/Sticker_61.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_62",
+            "path": "Textures/Car_Decals/Stickers/Sticker_62.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_63",
+            "path": "Textures/Car_Decals/Stickers/Sticker_63.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_64",
+            "path": "Textures/Car_Decals/Stickers/Sticker_64.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_65",
+            "path": "Textures/Car_Decals/Stickers/Sticker_65.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_66",
+            "path": "Textures/Car_Decals/Stickers/Sticker_66.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_67",
+            "path": "Textures/Car_Decals/Stickers/Sticker_67.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_68",
+            "path": "Textures/Car_Decals/Stickers/Sticker_68.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_69",
+            "path": "Textures/Car_Decals/Stickers/Sticker_69.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_71",
+            "path": "Textures/Car_Decals/Stickers/Sticker_71.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_72",
+            "path": "Textures/Car_Decals/Stickers/Sticker_72.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_73",
+            "path": "Textures/Car_Decals/Stickers/Sticker_73.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_74",
+            "path": "Textures/Car_Decals/Stickers/Sticker_74.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_75",
+            "path": "Textures/Car_Decals/Stickers/Sticker_75.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_81",
+            "path": "Textures/Car_Decals/Stickers/Sticker_81.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_82",
+            "path": "Textures/Car_Decals/Stickers/Sticker_82.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_83",
+            "path": "Textures/Car_Decals/Stickers/Sticker_83.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_85",
+            "path": "Textures/Car_Decals/Stickers/Sticker_85.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_86",
+            "path": "Textures/Car_Decals/Stickers/Sticker_86.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_87",
+            "path": "Textures/Car_Decals/Stickers/Sticker_87.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_88",
+            "path": "Textures/Car_Decals/Stickers/Sticker_88.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_89",
+            "path": "Textures/Car_Decals/Stickers/Sticker_89.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_90",
+            "path": "Textures/Car_Decals/Stickers/Sticker_90.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_91",
+            "path": "Textures/Car_Decals/Stickers/Sticker_91.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_92",
+            "path": "Textures/Car_Decals/Stickers/Sticker_92.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_93",
+            "path": "Textures/Car_Decals/Stickers/Sticker_93.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_94",
+            "path": "Textures/Car_Decals/Stickers/Sticker_94.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Stickers_Sticker_95",
+            "path": "Textures/Car_Decals/Stickers/Sticker_95.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Tribals_Tribal_01",
+            "path": "Textures/Car_Decals/Tribals/Tribal_01.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Tribals_Tribal_02",
+            "path": "Textures/Car_Decals/Tribals/Tribal_02.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Tribals_Tribal_03",
+            "path": "Textures/Car_Decals/Tribals/Tribal_03.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Tribals_Tribal_04",
+            "path": "Textures/Car_Decals/Tribals/Tribal_04.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Tribals_Tribal_05",
+            "path": "Textures/Car_Decals/Tribals/Tribal_05.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Tribals_Tribal_06",
+            "path": "Textures/Car_Decals/Tribals/Tribal_06.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Tribals_Tribal_07",
+            "path": "Textures/Car_Decals/Tribals/Tribal_07.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Tribals_Tribal_08",
+            "path": "Textures/Car_Decals/Tribals/Tribal_08.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Tribals_Tribal_09",
+            "path": "Textures/Car_Decals/Tribals/Tribal_09.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Tribals_Tribal_10",
+            "path": "Textures/Car_Decals/Tribals/Tribal_10.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Tribals_Tribal_11",
+            "path": "Textures/Car_Decals/Tribals/Tribal_11.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Tribals_Tribal_12",
+            "path": "Textures/Car_Decals/Tribals/Tribal_12.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Tribals_Tribal_13",
+            "path": "Textures/Car_Decals/Tribals/Tribal_13.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Wings_Wing_01",
+            "path": "Textures/Car_Decals/Wings/Wing_01.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Wings_Wing_02",
+            "path": "Textures/Car_Decals/Wings/Wing_02.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Wings_Wing_03",
+            "path": "Textures/Car_Decals/Wings/Wing_03.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Wings_Wing_04",
+            "path": "Textures/Car_Decals/Wings/Wing_04.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Wings_Wing_05",
+            "path": "Textures/Car_Decals/Wings/Wing_05.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Wings_Wing_06",
+            "path": "Textures/Car_Decals/Wings/Wing_06.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Wings_Wing_07",
+            "path": "Textures/Car_Decals/Wings/Wing_07.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Wings_Wing_08",
+            "path": "Textures/Car_Decals/Wings/Wing_08.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Wings_Wing_09",
+            "path": "Textures/Car_Decals/Wings/Wing_09.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Wings_Wing_10",
+            "path": "Textures/Car_Decals/Wings/Wing_10.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Wings_Wing_11",
+            "path": "Textures/Car_Decals/Wings/Wing_11.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Wings_Wing_12",
+            "path": "Textures/Car_Decals/Wings/Wing_12.ktx2"
+        },
+        {
+            "key": "Texture_Car_Decals_Wings_Wing_13",
+            "path": "Textures/Car_Decals/Wings/Wing_13.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_B_BAN",
+            "path": "Textures/Car_Icons/Class_B/BAN.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_B_CHR",
+            "path": "Textures/Car_Icons/Class_B/CHR.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_B_CLG",
+            "path": "Textures/Car_Icons/Class_B/CLG.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_B_GDZ",
+            "path": "Textures/Car_Icons/Class_B/GDZ.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_B_HPR",
+            "path": "Textures/Car_Icons/Class_B/HPR.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_B_HRK",
+            "path": "Textures/Car_Icons/Class_B/HRK.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_B_JUL",
+            "path": "Textures/Car_Icons/Class_B/JUL.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_B_LNX",
+            "path": "Textures/Car_Icons/Class_B/LNX.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_B_PWR",
+            "path": "Textures/Car_Icons/Class_B/PWR.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_B_RHY",
+            "path": "Textures/Car_Icons/Class_B/RHY.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_B_RT7",
+            "path": "Textures/Car_Icons/Class_B/RT7.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_B_SK2",
+            "path": "Textures/Car_Icons/Class_B/SK2.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_B_SPR",
+            "path": "Textures/Car_Icons/Class_B/SPR.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_B_SPY",
+            "path": "Textures/Car_Icons/Class_B/SPY.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_B_TCR",
+            "path": "Textures/Car_Icons/Class_B/TCR.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_B_V8M",
+            "path": "Textures/Car_Icons/Class_B/V8M.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_B_VLO",
+            "path": "Textures/Car_Icons/Class_B/VLO.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_B_VST",
+            "path": "Textures/Car_Icons/Class_B/VST.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_B_ZEN",
+            "path": "Textures/Car_Icons/Class_B/ZEN.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_C_BSL",
+            "path": "Textures/Car_Icons/Class_C/BSL.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_C_CTN",
+            "path": "Textures/Car_Icons/Class_C/CTN.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_C_FTK",
+            "path": "Textures/Car_Icons/Class_C/FTK.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_C_HRE",
+            "path": "Textures/Car_Icons/Class_C/HRE.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_C_KNG",
+            "path": "Textures/Car_Icons/Class_C/KNG.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_C_MGN",
+            "path": "Textures/Car_Icons/Class_C/MGN.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_C_MXL",
+            "path": "Textures/Car_Icons/Class_C/MXL.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_C_NEU",
+            "path": "Textures/Car_Icons/Class_C/NEU.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_C_OPT",
+            "path": "Textures/Car_Icons/Class_C/OPT.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_C_RBT",
+            "path": "Textures/Car_Icons/Class_C/RBT.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_C_RWD",
+            "path": "Textures/Car_Icons/Class_C/RWD.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_C_SLE",
+            "path": "Textures/Car_Icons/Class_C/SLE.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_C_ZOO",
+            "path": "Textures/Car_Icons/Class_C/ZOO.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_CUB",
+            "path": "Textures/Car_Icons/Class_D/CUB.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_DES",
+            "path": "Textures/Car_Icons/Class_D/DES.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_DLX",
+            "path": "Textures/Car_Icons/Class_D/DLX.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_DRG",
+            "path": "Textures/Car_Icons/Class_D/DRG.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_DRT",
+            "path": "Textures/Car_Icons/Class_D/DRT.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_FST",
+            "path": "Textures/Car_Icons/Class_D/FST.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_GLC",
+            "path": "Textures/Car_Icons/Class_D/GLC.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_ITR",
+            "path": "Textures/Car_Icons/Class_D/ITR.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_LXD",
+            "path": "Textures/Car_Icons/Class_D/LXD.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_MIX",
+            "path": "Textures/Car_Icons/Class_D/MIX.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_MTR",
+            "path": "Textures/Car_Icons/Class_D/MTR.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_PEP",
+            "path": "Textures/Car_Icons/Class_D/PEP.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_PKP",
+            "path": "Textures/Car_Icons/Class_D/PKP.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_PRS",
+            "path": "Textures/Car_Icons/Class_D/PRS.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_RLY",
+            "path": "Textures/Car_Icons/Class_D/RLY.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_SPX",
+            "path": "Textures/Car_Icons/Class_D/SPX.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_SXL",
+            "path": "Textures/Car_Icons/Class_D/SXL.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_TGR",
+            "path": "Textures/Car_Icons/Class_D/TGR.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_TSD",
+            "path": "Textures/Car_Icons/Class_D/TSD.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_VRS",
+            "path": "Textures/Car_Icons/Class_D/VRS.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_D_ZEL",
+            "path": "Textures/Car_Icons/Class_D/ZEL.ktx2"
+        },
+        {
+            "key": "Texture_Car_Icons_Class_B_HPR_S",
+            "path": "Textures/Car_Icons/Class_B/HPR-S.ktx2"
+        },
+        {
+            "key": "Texture_KOTH_Koth1",
+            "path": "Textures/KOTH/koth1.ktx2"
+        },
+        {
+            "key": "Texture_KOTH_Koth2",
+            "path": "Textures/KOTH/koth2.ktx2"
+        },
+        {
+            "key": "Texture_KOTH_Koth3",
+            "path": "Textures/KOTH/koth3.ktx2"
+        },
+        {
+            "key": "Texture_RaceType_Circuit",
+            "path": "Textures/RaceType/Circuit.ktx2"
+        },
+        {
+            "key": "Texture_RaceType_Sprint",
+            "path": "Textures/RaceType/Sprint.ktx2"
+        },
+        {
+            "key": "Texture_RaceType_TimeTrial",
+            "path": "Textures/RaceType/TimeTrial.ktx2"
+        },
+        {
+            "key": "Texture_RaceType_SpeedTrap",
+            "path": "Textures/RaceType/SpeedTrap.ktx2"
+        },
+        {
+            "key": "Texture_RaceType_Bonus",
+            "path": "Textures/RaceType/Bonus.ktx2"
+        },
+        {
+            "key": "Texture_RaceTypeIcon_Circuit",
+            "path": "Textures/RaceTypeIcon/Circuit_Icon.ktx2"
+        },
+        {
+            "key": "Texture_RaceTypeIcon_Sprint",
+            "path": "Textures/RaceTypeIcon/Sprint_Icon.ktx2"
+        },
+        {
+            "key": "Texture_RaceTypeIcon_TimeTrial",
+            "path": "Textures/RaceTypeIcon/TimeTrial_Icon.ktx2"
+        },
+        {
+            "key": "Texture_RaceTypeIcon_SpeedTrap",
+            "path": "Textures/RaceTypeIcon/SpeedTrap_Icon.ktx2"
+        },
+        {
+            "key": "Texture_RaceTypeIcon_Boss",
+            "path": "Textures/RaceTypeIcon/Boss_Icon.ktx2"
+        },
+        {
+            "key": "Texture_DailyBackground_Day_1",
+            "path": "Textures/DailyBackground/Day_1.ktx2"
+        },
+        {
+            "key": "Texture_DailyBackground_Day_2",
+            "path": "Textures/DailyBackground/Day_2.ktx2"
+        },
+        {
+            "key": "Texture_DailyBackground_Day_3",
+            "path": "Textures/DailyBackground/Day_3.ktx2"
+        },
+        {
+            "key": "Texture_DailyBackground_Day_4",
+            "path": "Textures/DailyBackground/Day_4.ktx2"
+        },
+        {
+            "key": "Texture_DailyBackground_Day_5",
+            "path": "Textures/DailyBackground/Day_5.ktx2"
+        },
+        {
+            "key": "Texture_DailyBackground_Day_6",
+            "path": "Textures/DailyBackground/Day_6.ktx2"
+        },
+        {
+            "key": "Texture_DailyBackground_Day_7",
+            "path": "Textures/DailyBackground/Day_7.ktx2"
+        }
+    ]
+}

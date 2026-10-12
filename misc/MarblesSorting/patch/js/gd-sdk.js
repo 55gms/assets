@@ -97,7 +97,7 @@ gdsdk= function() {
     console.log("--gdsdk--showAd--", adType, arguments);
     if (adType== "rewarded") {
       return new Promise((resolve, reject)=> {
-        loadJS("https://www.ubg235.com/ads/rewarded.js", (success)=> {
+        Promise.resolve(true).then((success)=> {
         if (success) {
             console.log("--fx--showAd--Done--");
             window.GD_OPTIONS.onEvent({
@@ -123,7 +123,7 @@ gdsdk= function() {
       });
     } else {
       return new Promise((resolve, reject)=> {
-        loadJS("https://www.ubg235.com/ads/commercial.js", (success)=> {
+        Promise.resolve(true).then((success)=> {
           window.GD_OPTIONS.onEvent({
             name: "SDK_GAME_START",
             message: "No Message",
@@ -137,7 +137,7 @@ gdsdk= function() {
   this.showBanner= function() {
     console.log("--gdsdk--showBanner--", arguments);
     return new Promise((resolve, reject)=> {
-      loadJS("https://www.ubg235.com/ads/commercial.js", (success)=> {
+      Promise.resolve(true).then((success)=> {
         window.GD_OPTIONS.onEvent({
           name: "SDK_GAME_START",
           message: "Reward Skip!",
@@ -223,6 +223,5 @@ xwindow = new Proxy(window, {
 
 op3n= function() {
   console.trace("--fx--op3n--", arguments);
-  window.open("https://ads.games235.com/");
   // alert("--fx--xopen--");
 }

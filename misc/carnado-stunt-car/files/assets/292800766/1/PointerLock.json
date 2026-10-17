@@ -1,0 +1,1 @@
+{"entities":{"a1acf594-3f5f-47ce-a56c-14f8825093f6":{"name":"PointerLock","tags":[],"enabled":true,"resource_id":"a1acf594-3f5f-47ce-a56c-14f8825093f6","parent":null,"children":[],"position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1],"components":{"script":{"enabled":true,"order":["pointerLock"],"scripts":{"pointerLock":{"enabled":true,"attributes":{}}}}}}}}

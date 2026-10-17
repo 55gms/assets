@@ -1,0 +1,30 @@
+/* Pause keeps the actual, frozen match visible. Only the rail has a background. */
+#pause.overlay{padding:0;display:block;background:none!important;backdrop-filter:none!important;isolation:isolate}
+#pause .pause-rail{position:absolute;inset:0 auto 0 0;width:76px;height:100%;padding:14px 0;display:flex;flex-direction:column;align-items:center;gap:6px;background:rgba(25,32,34,.82);border-right:1px solid #ffffff30;backdrop-filter:blur(5px);z-index:3}
+.pause-logo{width:54px;height:42px;object-fit:contain;filter:brightness(0) invert(1);margin:0 0 18px}
+#pause .pause-action{width:100%;height:68px;flex:none;display:grid;place-items:center;position:relative;color:#e9eeee;border:0;border-left:3px solid transparent;background:none}
+#pause .pause-action:hover,#pause .pause-action.active{background:#ffffff17;border-left-color:#e8d58f;color:white}
+.pause-action svg{width:31px;height:31px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.pause-action span{pointer-events:none;position:absolute;left:83px;top:17px;white-space:nowrap;padding:10px 15px;background:#192023ed;font-size:12px;letter-spacing:.8px;opacity:0;transition:opacity .1s;box-shadow:0 3px 12px #0004}
+.pause-action:hover span,.pause-action:focus-visible span{opacity:1}
+#pause #exitGame{margin-top:auto}
+.pause-caption{position:absolute;right:28px;top:25px;font-size:12px;letter-spacing:2px;text-shadow:0 1px 4px #000;color:#f3f4ed;background:#141a2066;padding:10px 15px}
+#pauseSettings{position:absolute;inset:0 0 0 76px;background:#243236dc;color:#edf1ed;z-index:2;overflow:auto;backdrop-filter:blur(3px)}
+#pauseSettingsMount{height:100%}
+#pause #page-settings{display:block;position:relative;inset:auto;width:100%;height:auto;min-height:100%;max-height:none;padding:35px 5vw 35px;background:none;margin:0;overflow:visible}
+#pause #page-settings>h1{font-size:32px;letter-spacing:1px;margin-top:24px}
+#pause #page-settings>.eyebrow{display:none}
+#pause #page-settings .settings-tabs{margin:22px -5vw;padding:0 5vw 18px;gap:30px}
+.settings-back{position:absolute;right:22px;top:20px;font-size:12px;padding:9px 13px;border:1px solid #ffffff40;z-index:3;background:#1b292bdd}
+.bindings-panel{width:min(800px,82%);margin:28px auto 50px}
+.binding-heading{display:flex;align-items:center;justify-content:space-between;gap:20px;margin:0 0 12px}
+.binding-heading h2{font-size:15px;font-weight:500;letter-spacing:1px}
+.binding-heading .secondary{font-size:11px;padding:10px 14px;white-space:nowrap}
+.bindings-panel>p{font-size:12px;line-height:1.7;color:#c2cecd;margin:8px 0 20px}
+.binding-row{display:grid;grid-template-columns:minmax(140px,1fr) minmax(130px,.65fr);gap:20px;align-items:center;min-height:48px;border-bottom:1px solid #d3dfdf25}
+.binding-row label{font-size:14px;font-weight:400;color:#e4eae7;cursor:pointer}
+.binding-key{justify-self:stretch;border:1px solid #d8e2de40;background:#a7bbbb0c;padding:8px 12px;font-size:12px;min-height:34px;text-align:center;color:#e6ede9;font-variant-numeric:tabular-nums}
+.binding-key:hover{background:#e1eded18}.binding-key.listening{border-color:#e7cd83;color:#ffe0a0;background:#d7b44a1a}
+#bindingStatus{min-height:21px;color:#e7d398;margin:14px 0}.binding-fixed{color:#abbcbb}
+#pause #page-settings .saved{padding-top:15px}
+@media(max-width:760px){#pause .pause-rail{width:54px}.pause-logo{width:40px;height:36px}#pause .pause-action{height:58px}.pause-action svg{width:26px;height:26px}.pause-action span{left:60px}#pauseSettings{left:54px}#pause #page-settings{padding:64px 18px 25px}#pause #page-settings>h1{margin:0 0 18px;font-size:25px}#pause #page-settings .settings-tabs{margin:18px -18px;padding:0 18px 12px;gap:18px}.bindings-panel{width:100%;margin:25px 0}.binding-heading{gap:8px}.binding-heading h2{font-size:12px}.binding-row{grid-template-columns:1fr minmax(100px,.7fr);gap:12px}.binding-row label{font-size:12px}.binding-key{font-size:10px}.pause-caption{font-size:10px;right:15px;top:15px}.settings-back{top:15px;right:18px}}

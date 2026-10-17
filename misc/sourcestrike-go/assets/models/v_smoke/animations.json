@@ -1,0 +1,1 @@
+{"bones":41,"actions":{"idle":{"name":"idle","frames":31,"duration":1,"offset":0},"draw":{"name":"deploy","frames":31,"duration":1,"offset":8897},"throw":{"name":"throw","frames":23,"duration":0.7333333333333333,"offset":17794}}}

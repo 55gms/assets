@@ -1,0 +1,1 @@
+{"bones":41,"actions":{"idle":{"name":"idle1","frames":4,"duration":0.08333333333333333,"offset":0},"fire":{"name":"pressbutton","frames":75,"duration":2.466666666666667,"offset":1148},"draw":{"name":"draw","frames":37,"duration":1.2,"offset":22673},"plant":{"name":"pressbutton","frames":75,"duration":2.466666666666667,"offset":33292}}}

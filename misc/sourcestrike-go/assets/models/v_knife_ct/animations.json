@@ -1,0 +1,1 @@
+{"bones":39,"actions":{"idle":{"name":"idle2","frames":31,"duration":1,"offset":0},"fire":{"name":"light_miss1","frames":36,"duration":1.1666666666666667,"offset":8463},"draw":{"name":"draw","frames":31,"duration":1,"offset":18291},"inspect":{"name":"lookat01","frames":187,"duration":6.2,"offset":26754}}}

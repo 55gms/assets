@@ -16,7 +16,7 @@ export default {
 		acceleration: 4.0,
 		rotationSpeed: 2.0,
 		maxHealth: 300,
-		attackDamage: 35,
+		attackDamage: 30,
 		/// Match Trike's food pacing: normal plant bite damage and nutrition per bite.
 		eatDamage: 1,
 		consumeValue: 10,
@@ -27,9 +27,12 @@ export default {
 	glb: 'ankylo',
 	protectTexture: 'protect',
 
+	/// No *Icon fields: the club-tailed herbivore takes every shared action icon plain -- the
+	/// exploding star to attack, the leaf to eat. See pack_a/trex/dinoCode.js.
+
 	/// Squat: the shared capsule is far taller than this body, so it is cut to just over
-	/// half height and left centred.
-	bodyCollider: { forward: 0, y: 0, heightScale: 0.55 },
+	/// half height, with its adult centre 0.79 units above ground.
+	bodyCollider: { forward: 0, y: 0.3555, heightScale: 0.55 },
 	/// No second head probe: this one's head does not project past its body capsule.
 	headCollider: null,
 
@@ -43,7 +46,13 @@ export default {
 	},
 
 	combat: {
+		hitAreaRadiusScale: 0.8,
+		hitAreaFrontOffsetZ: -0.25,
+		hitAreaDamageMultipliers: { front: 1, back: 0.7 },
 		impactDelay: 500,
+		/// In water the full-body tail stroke replaces the swim cycle, even while moving.
+		swimAttackAnimation: 'attack_swim',
+		swimDamageMultiplier: 0.5,
 		/// The tail swing plants its feet.
 		stationary: true,
 		/// ...but a swing STARTED at a run keeps a little of that momentum instead of

@@ -10,7 +10,7 @@ export default {
 		swimDepthTeen: -0.33,
 		swimDepthAdult: -0.65,
 		rotationSpeed: 2.0,
-		maxHealth: 100,
+		maxHealth: 200,
 		attackDamage: 20,
 		isFoodType: 2,
 		eatsFoodType: 1, // VEG
@@ -21,6 +21,10 @@ export default {
 	/// Named after the effect rather than the body part: the trike's is its frill.
 	protectTexture: 'protect',
 
+	/// It charges with its horns, so it gets the horn icon instead of the exploding star. The
+	/// rest of its action icons are the plain ones -- a herbivore eats the leaf.
+	attackIcon: 'horn',
+
 	/// No body-capsule adjustment: the shared capsule already sits under this torso.
 	bodyCollider: null,
 	headCollider: { forward: 0.72, height: 0.68, radius: 0.24 },
@@ -28,6 +32,7 @@ export default {
 	detection: { offset: [0, 0.688, -0.953], radiusScale: 1, foodRadius: null, foodOffset: null },
 
 	combat: {
+		hitAreaDamageMultipliers: { front: 0.7, back: 1 },
 		impactDelay: 350,
 		stationary: false,
 		scaryWhenRunning: false,

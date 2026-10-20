@@ -22,10 +22,29 @@ function FullAdShow() {
     FocusGame();
   }, 500);
 }
+// 55GMS Ads: the reward comes only with an ad GMSAds (sdk.min.js) grants.
 function RewardedShow(id) {
-  myGameInstance.SendMessage("YandexGame", "RewardVideo", id);
-  myGameInstance.SendMessage("YandexGame", "CloseVideo");
-  FocusGame();
+  const send = (method, arg) => {
+    if (!myGameInstance) return;
+    if (arg === undefined) myGameInstance.SendMessage("YandexGame", method);
+    else myGameInstance.SendMessage("YandexGame", method, arg);
+  };
+  if (!window.GMSAds) return send("ErrorVideo");
+  let opened = false;
+  const onPause = () => {
+    opened = true;
+    send("OpenVideo");
+  };
+  GMSAds.on("pause", onPause);
+  GMSAds.showRewardedAd({ placement: "rewarded", rewardId: String(id) }).then((r) => {
+    GMSAds.off("pause", onPause);
+    if (r.rewardGranted) {
+      if (!opened) send("OpenVideo");
+      send("RewardVideo", id);
+      send("CloseVideo");
+    } else send(opened ? "CloseVideo" : "ErrorVideo");
+    FocusGame();
+  });
 }
 window.addEventListener("pointerdown", FocusGame);
 (async () => {

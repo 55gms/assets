@@ -1,5 +1,6 @@
 // Stand-in for the Poki SDK: answers every call and shows no ads.
-// Rewarded breaks resolve as watched so in-game rewards still work.
+// Rewarded breaks resolve as not watched: 55GMS Ads' SDK (sdk.min.js)
+// replaces them with real ones, so a reward comes only with an ad.
 (function () {
   var done = function () {
     return Promise.resolve();
@@ -10,9 +11,8 @@
     commercialBreak: function (onStart) {
       return Promise.resolve();
     },
-    rewardedBreak: function (opts) {
-      if (opts && typeof opts.onStart === "function") opts.onStart();
-      return Promise.resolve(true);
+    rewardedBreak: function () {
+      return Promise.resolve(false);
     },
     displayAd: function () {},
     destroyAd: function () {},

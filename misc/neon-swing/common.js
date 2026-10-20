@@ -37,15 +37,12 @@ if (typeof window !== "undefined" && !window["famobi"]){
             },
             rewardedAd: function(callback) {
 
+            	// No reward without an ad: 55GMS Ads' SDK (sdk.min.js) replaces this.
             	var result = {
             		adDidLoad: true,
             		adDidShow: true,
             		rewardGranted: false
             	};
-
-            	if(confirm("Rewarded ad ended. Should a reward be granted?") == true) {
-            		result.rewardGranted = true;
-            	}
 
             	if(typeof callback == "function") {
             		callback(result);

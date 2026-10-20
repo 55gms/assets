@@ -6,7 +6,8 @@ window.YaGames = (() => {
   const lang = (navigator.language || "en").split("-")[0];
 
   // The game pauses on onOpen and resumes on onClose, so both must run, in that order.
-  const ad = (rewarded) => (options) => {
+  // No reward without an ad: 55GMS Ads' SDK (sdk.min.js) replaces showRewardedVideo.
+  const ad = (options) => {
     const callbacks = options?.callbacks || {};
     const call = (name, ...args) => {
       try {
@@ -16,7 +17,6 @@ window.YaGames = (() => {
     return new Promise((resolve) => {
       setTimeout(() => {
         call("onOpen");
-        if (rewarded) call("onRewarded");
         call("onClose", true);
         resolve();
       }, 0);
@@ -25,8 +25,8 @@ window.YaGames = (() => {
 
   const sdk = {
     adv: {
-      showFullscreenAdv: ad(false),
-      showRewardedVideo: ad(true),
+      showFullscreenAdv: ad,
+      showRewardedVideo: ad,
       showBannerAdv: done({ stickyAdvIsShowing: false }),
       hideBannerAdv: done({ stickyAdvIsShowing: false }),
       getBannerAdvStatus: done({ stickyAdvIsShowing: false }),

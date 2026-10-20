@@ -9,7 +9,8 @@
       getUser: done({}),
       getToken: done(""),
       commercialBreak: done(),
-      rewardedBreak: done(true),
+      // No reward without an ad: 55GMS Ads' SDK (sdk.min.js) replaces this.
+      rewardedBreak: done(false),
       displayAd: noop,
       destroyAd: noop,
       getURLParam: () => "",

@@ -151,9 +151,8 @@ PokiSDK= function() {
 
   this.rewardedBreak= function() {
    consoleLog("--fx--PokiSDK--rewardedBreak--");
-    return new Promise((resolve, reject)=> {
-      Promise.resolve(true).then(resolve);
-    }); 
+    // No reward without an ad: 55GMS Ads' SDK (sdk.min.js) replaces this.
+    return Promise.resolve(false);
   }
 
   this.displayAd= function() {

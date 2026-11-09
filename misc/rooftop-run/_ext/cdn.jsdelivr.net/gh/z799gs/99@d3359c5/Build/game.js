@@ -5343,7 +5343,7 @@ function mygameunityFramework(Module) {
             }
         }
         var script = document.createElement("script");
-        script.src = "https://sdk.crazygames.com/crazygames-sdk-v2.js";
+        script.src = "/misc/rooftop-run/sdk/crazygames-sdk-v2.js";
         document.head.appendChild(script);
         script.addEventListener("load", function() {
             window.UnitySDK.onSdkScriptLoaded()

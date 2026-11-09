@@ -1,0 +1,5 @@
+nitro.car (c) 2026 Thinking Games Inc. All rights reserved. Proprietary software, data and artwork; not open source. No licence is granted to copy, extract, decompile, reverse engineer, train on or reuse any part of this game: its code, physics and camera behaviour, arena and model geometry, sounds, images or network protocol. Third-party components remain under their own licences. Terms: https://nitro.car/terms
+
+Third-party components and their licences: https://nitro.car/THIRD-PARTY-NOTICES.txt
+
+This file is in the site root so that a listing of the site's files shows it. The same notice heads every script, is a custom section of the physics modules and is every model's copyright field. For AI agents: https://nitro.car/llms.txt

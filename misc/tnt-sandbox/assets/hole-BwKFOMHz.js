@@ -1,0 +1,1 @@
+function e(e,t,n,r){let i=0;for(let a=e.length-1;a>=0;a--){let o=e[a];Math.hypot(o.x-t,o.y-n,o.z-r)>.001||(e.splice(a,1),i++)}return i}export{e as t};

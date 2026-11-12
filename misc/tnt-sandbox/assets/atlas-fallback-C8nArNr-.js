@@ -1,0 +1,1 @@
+import{t as e}from"./atlas-paint-B_Nr_o3d.js";var t=Promise.resolve();function n(n){let r=t.then(()=>new Promise(e=>setTimeout(e,0))).then(async()=>{let{canvas:t,...r}=await e(n.kind,n.key);return{id:n.id,...r,bitmap:t}});return t=r.catch(()=>{}),r}export{n as paintOnMain};

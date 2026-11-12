@@ -1,0 +1,1 @@
+import{C as e,k as t}from"./widgets-CfWzU1P-.js";import{t as n}from"./topbar-Dv5SaWRS.js";function r(e){return t(e,{supplies:[[`mega`,4],[`tnt`,4]],sealed:[[`singularity`,2],[`mega`,5]]})}function i(t){return e(n,{state:t.state,width:t.width})}export{i as TopBar,r as setup};

@@ -1,0 +1,1 @@
+function e(e,t){return e===0?`tile/`+t:e===1?`struct/`+t:`map/`+t}export{e as t};

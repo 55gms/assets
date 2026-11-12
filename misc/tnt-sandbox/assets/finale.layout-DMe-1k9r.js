@@ -1,0 +1,1 @@
+import{i as e,n as t,r as n}from"./layout-CODeK17a.js";var r=[{key:`house`,x:38,z:38},{key:`tower`,x:62,z:38},{key:`wall`,x:50,z:50},{key:`house`,x:38,z:62},{key:`silo`,x:62,z:62}],i=[{x:24,z:50},{x:76,z:50}],a=t,o={x:50,z:78,lookTowardX:50,lookTowardZ:50};function s(e){n(e,r,i)}function c(t){e(t,r,7)}export{c as buildPreview,s as buildWorld,o as playerSpawn,a as worldBounds};

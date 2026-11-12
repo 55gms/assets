@@ -1,0 +1,1 @@
+import{t as e}from"./atlas-paint-B_Nr_o3d.js";import{t}from"./atlas.proto-Dni_soYj.js";self.onmessage=async({data:n})=>{try{let{canvas:t,...r}=await e(n.kind,n.key),i=await createImageBitmap(t,{premultiplyAlpha:`premultiply`});self.postMessage({id:n.id,...r,bitmap:i},[i])}catch(e){self.postMessage({id:n.id,name:t(n.kind,n.key),error:String(e?.message||e)})}};

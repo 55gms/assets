@@ -1,0 +1,1 @@
+import{i as e,n as t,r as n}from"./layout-CODeK17a.js";var r=[{key:`duplex`,x:50,z:48}],i=[{x:38,z:60},{x:63,z:42}],a=t,o={x:50,z:68,lookTowardX:50,lookTowardZ:48};function s(e){n(e,r,i)}function c(t){e(t,r,8)}export{c as buildPreview,s as buildWorld,o as playerSpawn,a as worldBounds};

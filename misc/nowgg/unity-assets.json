@@ -3,9 +3,9 @@
   "files": [
     {
       "path": "Build/webgl - rc.data.unityweb",
-      "size": 38459133,
+      "size": 39015696,
       "type": "application/octet-stream",
-      "sha256": "59870e033f000611787f0574a5234f976509260fdf2e89bd258dd463ef39bceb",
+      "sha256": "641d494050a25ce4969ff511d0bb2fbafeb1964bf56830591b53d56525abb838",
       "parts": [
         {
           "path": "Build/webgl - rc.data.unityweb.part1",
@@ -21,7 +21,7 @@
         },
         {
           "path": "Build/webgl - rc.data.unityweb.part4",
-          "size": 8459133
+          "size": 9015696
         }
       ]
     },

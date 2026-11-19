@@ -1,0 +1,2164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+
+	<title>HOCKEY BROS! | Official Site</title>
+
+	<meta name="description" content="Online multiplayer hockey! Bone crushing checks, slap shots, and tons more!" />
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<meta name="Keywords" content="Hockey, Play, Free, Online, Multiplayer, Games, IO, Sports, Ice, Friends">
+	<meta name="author" content="Blue Wizard Digital">
+
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://hockeybros.io" />
+	<meta property="og:title" content="Hockey Bros" />
+	<meta property="og:description" content="Online multiplayer hockey! Bone crushing checks, slap shots, and tons more!" />
+	<meta property="og:image" content="https://hockeybros.io/splash.jpg" />
+	<link rel="manifest" href="manifest.json">
+
+	<!--
+		Ad slot naming, published before the game bundle loads. Haxe (Main.adPrefix /
+		Main.prerollUnit) reads these instead of hardcoding names, so the div ids the page
+		renders and the ids the game asks for can never drift apart again.
+	-->
+	<script>
+		window.adPrefix = "hockeybros-io";
+		window.prerollId = "hockeybros.io_preroll";
+	</script>
+
+		<script type="text/javascript" src="./HockeyBros.js?th=1792096659"></script>
+
+	<script>
+		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
+		if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
+			var meta = document.getElementById ("viewport");
+			meta.setAttribute ('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
+		}
+		window.addEventListener('keydown', function(e) {
+			var tag = e.target.tagName;
+			if (tag !== 'INPUT' && tag !== 'TEXTAREA') {
+				e.preventDefault();
+			}
+		});
+		var aCo = "US";
+	</script>
+
+	<style>
+		html,body { margin: 0; padding: 0; height: 100%; background: #000000; color: orange; height: 100%; width: 100%; height: 100vh; width: 100vw; margin:0; padding:0;}
+		.body::-webkit-scrollbar { /* WebKit */
+ 			width: 0px;
+		}
+		#openfl-content { background: #000000; width: 100%; height: 100%; }
+		#spinner {
+			-webkit-transform-origin: 50% 50%;
+			-moz-transform-origin: 50% 50%;
+			-o-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			 width: 82px;
+			 height: 81px;
+			-webkit-animation: spin1 2s infinite linear;
+			-moz-animation: spin1 2s infinite linear;
+			-o-animation: spin1 2s infinite linear;
+			-ms-animation: spin1 2s infinite linear;
+			animation: spin1 2s infinite linear;
+		}
+
+
+
+
+		/* Main content styling */
+		#more {
+			display: flex;
+			justify-content: space-between;
+			background-color: #1a1a1a;
+			padding: 40px;
+			border-top: 0px solid #444;
+			color: #fff;
+			font-family: 'Arial', sans-serif;
+		}
+
+		.info-box {
+			width: 48%;
+			background-color: #222;
+			padding: 20px;
+			border-radius: 8px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+		}
+
+		h3 {
+			font-size: 24px;
+			color: #ffa500; /* Hockey-themed color */
+			margin-bottom: 15px;
+		}
+
+		p, b {
+			line-height: 1.6;
+			font-size: 16px;
+		}
+
+		p {
+			margin-bottom: 10px;
+		}
+
+		b {
+			color: #ffd700; /* Highlighted question color */
+		}
+
+
+		/* unvisited link */
+		a:link {
+		color: #ffd700;
+		}
+
+		/* visited link */
+		a:visited {
+		color: #ffd700;
+		}
+
+		/* mouse over link */
+		a:hover {
+		color: #ffd700;
+		}
+
+		/* selected link */
+		a:active {
+		color: #ffd700;
+		}
+
+		.notch-top-left {
+			width: 20px;
+			height: 20px;
+			background-color: var(--background-color, #1a1a1a);
+			position: absolute;
+			top: -10px;
+			left: -10px;
+			clip-path: polygon(100% 0, 0 100%, 100% 100%);
+		}
+
+		/* Footer styling */
+		footer {
+			background-color: #000;
+			padding: 20px 0;
+			text-align: center;
+			color: #ccc;
+			font-size: 14px;
+			border-top: 2px solid #444;
+			margin-top: 40px;
+			font-family: 'Arial', sans-serif;
+			border: 0;
+		}
+
+		.feedback-form {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 50vw;
+		height: 50vh;
+		background-color: #2A6DB0;
+		padding: 20px;
+		border: 4px solid #FF0000;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+		text-align: center;
+		color: #FFFFFF;
+		}
+		.feedback-form h3 {
+		font-size: 24px;
+		margin-bottom: 20px;
+		color: #FFFFFF;
+		text-shadow: 2px 2px #000000;
+		}
+		.feedback-form textarea {
+		width: calc(100% - 20px);
+		height: 50%;
+		margin-bottom: 10px;
+		padding: 10px;
+		font-size: 16px;
+		font-family: 'Courier New', Courier, monospace;
+		border: 3px solid #000000;
+		background-color: #000000; /* Black background */
+		color: #FFFFFF; /* White text */
+		resize: none;
+		box-sizing: border-box;
+		}
+		.feedback-form button {
+		width: 100%;
+		padding: 12px;
+		background-color: #FFD700; /* Yellowish background */
+		color: #000000;
+		border: 3px solid #FF0000;
+		border-radius: 0;
+		font-size: 18px;
+		cursor: pointer;
+		font-family: 'Courier New', Courier, monospace;
+		text-shadow: 1px 1px #000000;
+		}
+		.feedback-form button:hover {
+		background-color: #FFB800; /* Slightly darker yellow on hover */
+		color: #FFFFFF;
+		}
+
+  	</style>
+
+
+	<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-T5DLZVQJW5"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		if(location.hostname != "localhost") gtag('config', "G-T5DLZVQJW5", { cookie_flags: 'secure;samesite=none' });
+	</script>
+		<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer',"G-T5DLZVQJW5");</script>
+	<!-- End Google Tag Manager -->
+	
+				<link rel="preconnect" href="https://securepubads.g.doubleclick.net" crossorigin />
+		<link rel="preconnect" href="https://stpd.cloud" crossorigin />
+		<script>
+			stpd = window.stpd || {que: []};
+			window.googletag = window.googletag || {};
+			googletag.cmd = googletag.cmd || [];
+			window.setupadAds = true;
+			// The shipped game bundle knows two ad flags: ascAds, and optiAds for "the page owns
+			// its ad divs — hand ShowAd/HideAd straight to it with coordinates and don't look for
+			// a div by id". That contract is exactly what Setupad needs, and ShowOptiAd/HideOptiAd
+			// below dispatch on setupadAds, so raise it rather than waiting on a Haxe rebuild.
+			window.optiAds = true;
+		</script>
+	
+	<script>
+
+			var gAdBlock=false;
+		var lastUnitPlayed="none";
+		console.log('[SETUPAD] Provider init block loaded (tag 11178)');
+	
+
+	function SetupMSNotification()
+	{
+		console.log("notifying");
+		if(typeof $msstart !== 'undefined')
+		{
+			console.log("notifying2");
+			var id = btoa("https:\/\/hockeybros.io\/sbros_364x180.png");
+			$msstart.scheduleNotificationAsync({title: "Unlock new bros now!",
+												description: "You are just about to unlock a new Bro! Who will it be?",
+												type: 1,
+												minDelayInSeconds: 24*60*60
+											}).then(response => {
+					console.log("notification response: "+response);
+				});
+			$msstart.scheduleNotificationAsync({title: "Check all over your bros!",
+											description: "New bros just waiting to be checked! Unlock them now!",
+											type: 1,
+											minDelayInSeconds: 24*7*60*60
+										}).then(response => {
+				console.log("notification response: "+response);
+			});
+
+  		}
+	}
+
+	var msAdID;
+	function LoadVideo()
+	{
+		if(typeof $msstart !== 'undefined')
+		{
+			$msstart.loadAdsAsync().then(adInstance => {
+    			// Use the adInstance.instanceId to make a call to showAdsAsync
+				msAdID = adInstance.instanceId;
+			});
+
+			SetupMSNotification();
+		}
+	}
+
+	function ShowVideo(theUnitName=null)
+	{
+		//Main.DoneVideoAd(true);
+		//return;//! when aip is live, remove this
+
+		// Any caller that omits the unit gets the configured one rather than undefined.
+		if (!theUnitName) theUnitName = "hockeybros.io_preroll";
+		console.log('SHOW_VIDEO:'+theUnitName);
+		var aUnitName = "";
+		if(typeof $msstart !== 'undefined')
+		{
+			$msstart.showAdsAsync(msAdID).then(adInstance => {
+   			 	// Use the adInstance.showAdsCompletedAsync to be notified of the completion of showing the advertisement
+				adInstance.showAdsCompletedAsync.then((val) => {
+					console.log('MS Video Ad Complete');
+					Main.DoneVideoAd();
+					window.focus();
+					window.document.getElementById('openfl-content').focus();
+					LoadVideo();
+				}).catch((err) => {
+					console.log('Ms Video Ad Error');
+					Main.DoneVideoAd();
+					window.focus();
+					window.document.getElementById('openfl-content').focus();
+					LoadVideo();
+				});
+			});
+		}
+		else if(typeof gCrazySDK !== 'undefined') {
+			gCrazySDK.addEventListener("adFinished", Main.DoneVideoAd); // reenable sound, enable ui
+			gCrazySDK.addEventListener("adError", Main.DoneVideoAd); // reenable sound, enable ui
+			gCrazySDK.requestAd();
+			console.log('CG_AD_REQUESTED');
+			SendEvent('event', 'cgvideo');
+			return;
+		}
+		else if (window.ascAds) {
+			console.log('[ASC] ShowVideo: ascAds=true, attempting preroll');
+			// Dynamically create preroll div on demand
+			var prerollDiv = ascGetOrCreateDiv("hockeybros.io_preroll");
+			prerollDiv.style.display = 'block';
+			prerollDiv.style.visibility = 'visible';
+			prerollDiv.style.position = 'fixed';
+			prerollDiv.style.top = '50%';
+			prerollDiv.style.left = '50%';
+			prerollDiv.style.transform = 'translate(-50%, -50%)';
+			prerollDiv.style.zIndex = '150';
+			if (typeof pbjs !== 'undefined' && typeof pbjs.processAdsOnPage === 'function') {
+				lastUnitPlayed = 'asc_preroll';
+				SendEvent('event', 'startvideo-asc_preroll');
+				console.log('[ASC] ShowVideo: calling processAdsOnPage for preroll');
+				pbjs.que.push(function() { pbjs.processAdsOnPage(); });
+
+				// Create skip button as a SEPARATE fixed element on body
+				// (processAdsOnPage replaces ad div contents, destroying any children)
+				var skipBtn = document.createElement('div');
+				skipBtn.id = 'asc-preroll-skip';
+				skipBtn.style.cssText = 'position:fixed; bottom:calc(50% - 250px); right:calc(50% - 460px); z-index:200; background:rgba(0,0,0,0.7); color:#fff; padding:8px 16px; font-family:sans-serif; font-size:14px; border-radius:4px; cursor:default; user-select:none;';
+				document.body.appendChild(skipBtn);
+
+				var countdown = 5;
+				skipBtn.textContent = 'Skip in ' + countdown + '...';
+				var countdownInterval = setInterval(function() {
+					countdown--;
+					if (countdown > 0) {
+						skipBtn.textContent = 'Skip in ' + countdown + '...';
+					} else {
+						clearInterval(countdownInterval);
+						skipBtn.textContent = 'Skip Ad \u25B6';
+						skipBtn.style.cursor = 'pointer';
+						skipBtn.style.background = 'rgba(0,0,0,0.85)';
+						skipBtn.onmouseover = function() { skipBtn.style.background = 'rgba(50,50,50,0.95)'; };
+						skipBtn.onmouseout = function() { skipBtn.style.background = 'rgba(0,0,0,0.85)'; };
+						skipBtn.onclick = function() {
+							clearInterval(countdownInterval);
+							prerollDiv.style.display = 'none';
+							prerollDiv.style.visibility = 'hidden';
+							if (skipBtn.parentNode) skipBtn.parentNode.removeChild(skipBtn);
+							Main.DoneVideoAd();
+							window.focus();
+							window.document.getElementById('openfl-content').focus();
+							console.log('[ASC] ShowVideo: preroll skipped by user');
+						};
+					}
+				}, 1000);
+			} else {
+				console.warn('[ASC] ShowVideo: pbjs.processAdsOnPage not available, skipping preroll');
+				Main.DoneVideoAd();
+				window.focus();
+				window.document.getElementById('openfl-content').focus();
+			}
+		}
+		else if (window.optiAds) {
+			// Banners only for now — no video units. Main.ShowPrerollVideo() has already
+			// un-hidden the 960x540 #preroll div, and with no player to hide it that empty div
+			// sits at z-index 100 eating clicks on the middle of the game. Put it back.
+			console.log((window.setupadAds ? '[SETUPAD]' : '[OPTI]') + ' ShowVideo: no video ad support, completing immediately');
+			var optiPreroll = document.getElementById('preroll');
+			if (optiPreroll) {
+				optiPreroll.style.display = 'none';
+				optiPreroll.style.visibility = 'hidden';
+			}
+			Main.DoneVideoAd();
+			window.focus();
+			window.document.getElementById('openfl-content').focus();
+		}
+		else if (typeof adplayer === 'undefined') {
+			Main.DoneVideoAd(true);
+			SendEvent('event', 'video_adblocked');
+			console.log('VIDEO_ADBLOCKED');
+
+		} else {
+			var aStr = 'preroll';
+			//if(theUnitName != null) aStr = theUnitName;
+			lastUnitPlayed = aStr;
+			SendEvent('event', 'startvideo-'+aStr);
+
+			aiptag.cmd.player.push(function() { adplayer.startVideoAd(theUnitName); });
+		}
+	}
+	</script>
+
+	<!-- Firebase App (the core Firebase SDK) -->
+	<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+	<!-- Firebase Authentication -->
+	<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+	<!-- Firebase Firestore (Database) -->
+	<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+	<script>
+				var auth = null;
+		var db = null;
+		var userData = "";
+
+				// Your web app's Firebase configuration
+  		const firebaseConfig = {
+			apiKey: "AIzaSyC9EihxK81jfQ_AGxTyQ8NNq818oGPbXJM",
+			authDomain: "hockey-bros-a56bd.firebaseapp.com",
+			projectId: "hockey-bros-a56bd",
+			storageBucket: "hockey-bros-a56bd.firebasestorage.app",
+			messagingSenderId: "410926347958",
+			appId: "1:410926347958:web:a5efae82b2566c2cb29817"  		};
+
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+		auth = firebase.auth();
+		db = firebase.firestore();
+
+		// Firebase auth state observer
+		auth.onAuthStateChanged(function(user) {
+			if (user) {
+				loadGameDataAsync();
+				SendEvent('event', 'sign_in');
+				console.log('user signed in');
+			} else {
+				console.log('No user signed in');
+				SendEvent('event', 'sign_out');
+			}
+		});
+		
+		function triggerSignIn()
+		{
+			if (!auth) return;
+			var provider = new firebase.auth.GoogleAuthProvider();
+			auth.signInWithPopup(provider);
+		}
+
+		// Save game data function
+		function saveGameData(gameDataValue) {
+			if (!auth || !auth.currentUser) return;
+			console.log('saving gameData_hockeybros:' + gameDataValue);
+			var userId = auth.currentUser.uid;
+			userData = gameDataValue;
+			db.collection('users').doc(userId).set({
+				gameData_hockeybros: gameDataValue
+			}).then(function() {
+				console.log('Game data saved');
+			}).catch(function(error) {
+				console.error('Error saving game data:', error);
+			});
+		}
+
+		// Load game data function
+		function loadGameData() { return userData; }
+
+		function loadGameDataAsync() {
+			if (!auth || !auth.currentUser) return;
+			var userId = auth.currentUser.uid;
+			db.collection('users').doc(userId).get().then(function(doc) {
+				if (doc.exists) {
+					userData = doc.data().gameData_hockeybros;
+					console.log('Game data:', doc.data().gameData_hockeybros);
+					if (typeof Main != "undefined")
+					{
+						Main.LoadDataComplete();
+					}
+				} else {
+				console.log('No such document!');
+				}
+			}).catch(function(error) {
+				console.error('Error loading game data:', error);
+			});
+		}
+
+		function signOut()
+		{
+			if (!auth) return;
+			auth.signOut().then(() => {
+				Main.SignOutComplete();
+				console.log('signed out');
+			});
+		}
+
+		function isUserLoggedIn() {
+			return auth !== null && auth.currentUser !== null;
+		}
+	</script>
+
+	
+</head>
+<body style="overflow:hidden;">
+	<noscript>Enable JavaScript bro!</noscript>
+		<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=G-T5DLZVQJW5"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+		<script>
+
+		//alert("Globals:"+localStorage.getItem("/:Globals").length);
+		/////////////////////////////////////////////////////////////////////
+		////////////////////////////////////////////////////////////////////
+		var url = window.location.href;
+		if(url.includes("www."))
+		{
+				url = url.replace("www.","");
+
+				var f = document.createElement('form');
+				f.action=url;
+				f.method='POST';
+				var i=document.createElement('input');
+				i.type='hidden';
+				i.name='FGlobals';
+				i.value=localStorage.getItem("/:Globals");
+				f.appendChild(i);
+
+				document.body.appendChild(f);
+				f.submit();
+		}
+		else
+		{
+				var aPost = "";
+								var aStorage = localStorage.getItem("/:Globals");
+				var aLen = 0;
+				if(aStorage != null && aStorage.length > 0)
+				{
+						aLen = aStorage.length;
+				}
+				if(aPost.length > aLen) localStorage.setItem("/:Globals", aPost);
+				if(aPost.length > 0 && aPost.length == aLen) localStorage.setItem("/:Globals", aPost);
+		}
+		/////////////////////////////////////////////////////////////////////
+		////////////////////////////////////////////////////////////////////
+
+	</script>
+
+    <div id="loading" style="position: absolute; z-index: 15; top: 60%; left: 50%; transform: translate(-50%, 0); background: black;">
+			<center><img src="assets/loading4.png"><br/>
+			<img src="assets/fbro.png">
+			<img src="assets/bbbro.png">
+			<img src="assets/sbro.png">
+			<img src="assets/wbro.png">
+			<img src="assets/kbro.png">
+			<img src="assets/kartbro.png">
+			<img src="assets/bbro.png">
+			<br/>
+			</center>
+	</div>
+	<!-- <div id="logo" style="position: fixed; bottom: 10px; right: 10px; z-index: 1000;"><img src="assets/bw_logo.gif"></div> -->
+
+
+	<div id="game2" style="width: 100%; height: 100%; ">
+		<div id="openfl-content"  onblur="window.focus();"
+												style="width: 100%; float:left;"
+									>
+			<script type="text/javascript">
+				lime.embed ("HockeyBros", "openfl-content", 0, 0, { parameters: {} });
+			</script>
+		</div>
+		<div id="preroll" style="width: 960px; height: 540px; display: none; position: absolute; top: 50%; left: 50%; z-index: 100; transform: translate(-50%, -50%);">
+		</div>
+
+		
+		
+		
+
+
+		<div class="feedback-form" id="feedbackForm" style="display:none;">
+			<h3>Report a Bug/Glitch</h3>
+			<textarea id="feedback" placeholder="Describe the bug or glitch with a lot of details, like how to make the glitch happen and anything else whether it seems useful or not..."></textarea>
+			<textarea id="email" placeholder="Email address (optional)" style="height: 50px;"></textarea>
+			<textarea id="discord" placeholder="Discord ID (optional)" style="height: 50px;"></textarea>
+			<button onclick="sendFeedback()" id="submitBtn">Submit Feedback</button>
+			<br/>
+			<br/>
+			<button onclick="document.getElementById('feedbackForm').style.display='none'" id="submitBtn">Cancel</button>
+			<p id="responseMsg"></p>
+		</div>
+		<script>
+			//                                                                                                                          var doFeedback = true;
+			function getOSFromUserAgent() {
+				const userAgent = navigator.userAgent;
+				const platform = navigator.platform;
+
+				// Check for common platforms and OS
+				if (/Windows NT/i.test(userAgent)) return 'Windows';
+				if (/Mac OS X/i.test(userAgent)) return 'macOS';
+				if (/Linux/i.test(userAgent)) return 'Linux';
+				if (/Android/i.test(userAgent)) return 'Android';
+				if (/iPhone|iPad|iPod/i.test(userAgent)) return 'iOS';
+				if (/CrOS/i.test(userAgent)) return 'Chrome OS';
+
+				// Default to the platform if no match
+				return platform || 'Unknown';
+			}
+			async function sendFeedback() {
+				var feedback = '*'+document.getElementById("feedback").value.trim()+'*';
+				var email = document.getElementById("email").value.trim();
+				var discord = document.getElementById("discord").value.trim();
+				const screenResolution = `${window.screen.width}x${window.screen.height}`;
+				const windowResolution = `${window.innerWidth}x${window.innerHeight}`;
+				var aOS = getOSFromUserAgent();
+				var aCity = "Unknown";
+                const hostname = window.location.hostname;
+				const gpu = (() => {
+					const canvas = document.createElement('canvas');
+					const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+					const debugInfo = gl?.getExtension('WEBGL_debug_renderer_info');
+					const gpuInfo = debugInfo ? gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL) : 'Unknown';
+
+					// Cleanup
+					canvas.remove(); // Remove the canvas from the DOM (if it was added)
+					return gpuInfo;
+				})();
+
+				feedback = feedback + '\nDomain: ' + hostname;
+				feedback = feedback + ', OS: ' + aOS;
+				feedback = feedback + ', Screen res: ' + screenResolution;
+				feedback = feedback + ', Window res: ' + windowResolution;
+				feedback = feedback + ', GPU: ' + gpu;
+				feedback = feedback + ', City: ' + aCity;
+				feedback = feedback + ', Email: ' + email;
+				feedback = feedback + ', Discord: ' + discord;
+
+				const responseMsg = document.getElementById("responseMsg");
+				const submitBtn = document.getElementById("submitBtn");
+
+				if (!feedback) {
+				alert("Please enter feedback.");
+				return;
+				}
+
+				submitBtn.disabled = true;
+				responseMsg.textContent = "Submitting...";
+
+				try {
+				const response = await fetch("sendFeedback.php", {
+					method: "POST",
+					headers: {
+					"Content-Type": "application/x-www-form-urlencoded"
+					},
+					body: new URLSearchParams({
+					feedback: feedback
+					})
+				});
+
+				const result = await response.json();
+
+				if (result.status === "success") {
+					document.getElementById("feedbackForm").style.display = "none"; // Close the feedback form
+					alert(result.message); // Show success message
+				} else {
+					document.getElementById("feedbackForm").style.display = "none"; // Close the feedback form
+					alert(result.message); // Show error message
+				}
+				} catch (error) {
+					document.getElementById("feedbackForm").style.display = "none"; // Close the feedback form
+					alert("Error submitting feedback. Please try again.");
+				}
+
+				submitBtn.disabled = false;
+			}
+		</script>
+
+
+
+	</div>
+	<br/>
+	<div tabindex="-1" id="more">
+				<div class="info-box">
+			<h3>About Hockey Bros</h3>
+						<p>Hockey Bros is a fast, physical, and downright chaotic online hockey game that you can play free right in your browser. No downloads, no sign-ups, just quick-fire ice hockey action. Line up your shot, throw a bone-crushing check, drop the gloves for a fight, and battle your way to the game-ending horn in this no-holds-barred hockey game!</p>
+			<p>Whether you&#039;re looking for a quick game at lunch or want to grind out wins against your friends in online multiplayer, Hockey Bros delivers the mayhem. Skate circles around defenders, smash your bros into the boards, and rack up goals with a control scheme that&#039;s easy to pick up but tough to master.</p>
+			<p>Controls:<br />
+Move: Arrow keys or WASD<br />
+Shoot / Pass / Check: Space bar</p>
+			<br/>
+						<h3>Changelog (8/1/2026)</h3>
+						<p>Hockey Bros launched! 🏒</p>
+								</div>
+		<div class="info-box">
+			<h3>FAQ</h3>
+						<b>Why isn&#039;t the game loading?</b>
+			<p>First, check your internet connection and confirm our site isn't being blocked by your network. Ad blockers and browser extensions can also interfere with the game so try disabling them and refreshing the page.</p>
+						<b>How do I play?</b>
+			<p>Use your arrow keys (or WASD) to skate around the rink, then hit the space bar to shoot, pass, or check. Get the puck past the goalie and into the net to score. The team with the most goals at the finishing buzzer wins the game.</p>
+						<b>Which browser should I use?</b>
+			<p>Chrome is the only browser we guarantee will run Hockey Bros perfectly. Firefox and Safari have both been tested and generally work fine too, though they aren't officially guaranteed.</p>
+						<b>I&#039;m blocked, where else can I play?</b>
+			<p>No problem. Play Hockey Bros Unblocked here: <a tabindex="-1" href="https://sites.google.com/bluewizard.com/basket-bros-unblocked">Hockey Bros Unblocked</a></p>
+									<b>Are there more Bros games?</b>
+			<p>Yes! Check out <a tabindex="-1" href="https://footballbros.io">Football Bros</a>, <a tabindex="-1" href="https://soccerbros.gg">Soccer Bros</a>, <a tabindex="-1" href="https://basketbros.io">Basket Bros</a></p>
+					</div>
+			</div>
+	<footer tabindex="-1">
+		<div class="footer-links">
+			<a tabindex="-1" href="https://bluewizard.com">Copyright 2026 Blue Wizard Digital</a> |
+			<a tabindex="-1" href="https://bluewizard.com/terms/">Terms of Service</a> |
+			<a tabindex="-1" href="https://bluewizard.com/privacypolicy/">Privacy Policy</a>
+		</div>
+	</footer>
+	<script>
+		// New global state for ad refresh timing and one-time checks
+		var adRefreshStates = {};
+		var adPrefix = "hockeybros-io";
+		var prerollId = "hockeybros.io_preroll";
+
+		// --------------------------------------------------------------------------------
+		// AdinPlay zone lifecycle.
+		//
+		// A zone has to be display()'d before refresh() means anything. Nothing here ever
+		// called display() — the only one in the tree lived inside an innerHTML "<script>"
+		// string in Main.hx, and innerHTML-injected scripts never execute. So every banner
+		// was a refresh() against a zone adinplay had never created: no error, no ad.
+		//
+		// A zone stops being live when HideAd() wipes the div's innerHTML or HideAllAds()
+		// calls destroy(), so both reset the flag and the next show display()s again.
+		// --------------------------------------------------------------------------------
+		var aipZoneLive = {};
+
+		function showTag(theTag) {
+			if (typeof aipDisplayTag === 'undefined') return;
+			try {
+				if (aipZoneLive[theTag]) {
+					aiptag.cmd.display.push(function() { aipDisplayTag.refresh(theTag); });
+					console.log('AIP refresh: ' + theTag);
+				} else {
+					aipZoneLive[theTag] = true;
+					aiptag.cmd.display.push(function() { aipDisplayTag.display(theTag); });
+					console.log('AIP display: ' + theTag);
+				}
+			} catch (error) {
+				console.error('Error showing the tag:', theTag, error);
+			}
+		}
+
+		// Kept for callers that specifically want a refresh of an already-live zone.
+		function refreshTag(theTag) {
+			showTag(theTag);
+		}
+
+		// ASC: slot name -> default size mapping (built from config prefix)
+		var ascSlotSizes = {};
+		ascSlotSizes[adPrefix+'_160x600'] = {w: 160, h: 600};
+		ascSlotSizes[adPrefix+'_160x600_2'] = {w: 160, h: 600};
+		ascSlotSizes[adPrefix+'_300x250'] = {w: 336, h: 280};
+		ascSlotSizes[adPrefix+'_300x250_2'] = {w: 336, h: 280};
+		ascSlotSizes[adPrefix+'_336x280'] = {w: 336, h: 600};
+		ascSlotSizes[adPrefix+'_336x280_2'] = {w: 336, h: 600};
+		ascSlotSizes[adPrefix+'_728x90'] = {w: 728, h: 90};
+		ascSlotSizes[adPrefix+'_728x90_m'] = {w: 728, h: 90};
+		ascSlotSizes[adPrefix+'_970x250'] = {w: 970, h: 250};
+		ascSlotSizes[prerollId] = {w: 960, h: 540};
+
+		// Cache of dynamically created ASC divs (keyed by slot name)
+		var ascDivCache = {};
+
+		// ASC helper: get or create a div with ot-name for a given slot
+		function ascGetOrCreateDiv(slotName) {
+			// Return cached div if it still exists in DOM
+			if (ascDivCache[slotName] && ascDivCache[slotName].parentNode) {
+				return ascDivCache[slotName];
+			}
+			var size = ascSlotSizes[slotName] || {w: 300, h: 250};
+			var div = document.createElement('div');
+			div.setAttribute('ot-name', slotName);
+			div.style.width = size.w + 'px';
+			div.style.height = size.h + 'px';
+			div.style.display = 'none';
+			div.style.visibility = 'hidden';
+			div.style.position = 'absolute';
+			div.style.zIndex = '100';
+			div.style.overflow = 'hidden';
+			div.style.top = '30px';
+			div.style.left = '30px';
+			document.getElementById('game2').appendChild(div);
+			ascDivCache[slotName] = div;
+			console.log('[ASC] Created dynamic div for slot: ' + slotName + ' (' + size.w + 'x' + size.h + ')');
+			return div;
+		}
+
+		// ASC helper: find existing div by ot-name (for ShowUnitBannerAd compatibility)
+		function ascGetDiv(divName) {
+			return ascDivCache[divName] || document.querySelector('[ot-name="' + divName + '"]');
+		}
+
+		// ASC: timer for batching processAdsOnPage calls
+		var ascProcessTimer = null;
+
+		// ASC: called from Haxe Main.ShowAd() when ascAds is true
+		function ShowAscAd(divName, theX, theY, xAlign, yAlign, doRefresh) {
+			if (/Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent)) return;
+
+			// Dynamically create the ot-name div if it doesn't exist yet
+			var aDiv = ascGetOrCreateDiv(divName);
+
+			aDiv.style.display = 'block';
+			aDiv.style.visibility = 'visible';
+
+			// Position the div (mirrors Haxe ShowAd positioning logic)
+			var contentEl = document.getElementById('openfl-content');
+			var w2 = contentEl ? contentEl.offsetWidth : window.innerWidth;
+			var h2 = window.innerHeight;
+			var aScaleX = 1500 / w2; // Main.SCREENWIDTH
+			var aScaleY = 768 / h2;  // Main.SCREENHEIGHT
+			var adPosX = w2 / 2 + theX / aScaleX;
+			var adPosY = h2 / 2 + theY / aScaleY;
+
+			var aDivHeight = aDiv.offsetHeight || 280;
+			var aDivWidth = aDiv.offsetWidth || 336;
+
+			if (yAlign === 'center') adPosY -= aDivHeight / 2;
+			else if (yAlign === 'bottom') adPosY -= aDivHeight;
+			if (xAlign === 'center') adPosX -= aDivWidth / 2;
+			else if (xAlign === 'right') adPosX -= aDivWidth;
+
+			if (contentEl) adPosX += contentEl.offsetLeft;
+
+			aDiv.style.left = adPosX + 'px';
+			aDiv.style.top = adPosY + 'px';
+
+			// Batch processAdsOnPage with setTimeout so all ShowAscAd calls in
+			// the same frame create their divs first, then ONE processAdsOnPage
+			// call discovers and processes them all at once.
+			if (doRefresh && typeof pbjs !== 'undefined' && typeof pbjs.processAdsOnPage === 'function') {
+				if (ascProcessTimer) clearTimeout(ascProcessTimer);
+				ascProcessTimer = setTimeout(function() {
+					ascProcessTimer = null;
+					pbjs.que.push(function() {
+						pbjs.processAdsOnPage();
+						console.log('[ASC] processAdsOnPage executed (batched)');
+					});
+				}, 50);
+				SendEvent('event', 'asc_banner_requested');
+			}
+			console.log('[ASC] ShowAscAd: ' + divName + ' at ' + adPosX + ',' + adPosY);
+		}
+
+		// ASC: called from Haxe Main.HideAd() when ascAds is true
+		function HideAscAd(divName, justClear) {
+			var aDiv = ascGetDiv(divName);
+			if (!aDiv) {
+				// Not an asc ad div — fall back to getElementById (for loading, logo, etc.)
+				aDiv = document.getElementById(divName);
+			}
+			if (aDiv) {
+				if (!justClear) {
+					aDiv.style.display = 'none';
+					aDiv.style.visibility = 'hidden';
+				}
+			}
+		}
+
+		// ASC: called from Haxe ManageAdSizes() when ascAds is true
+		function AscManageAdSizes(shouldHide) {
+			var div1 = ascGetDiv(adPrefix+'_160x600');
+			var div2 = ascGetDiv(adPrefix+'_160x600_2');
+			if (shouldHide) {
+				if (div1) { div1.style.width = '0px'; div1.style.display = 'none'; div1.style.visibility = 'hidden'; }
+				if (div2) { div2.style.width = '0px'; div2.style.display = 'none'; div2.style.visibility = 'hidden'; }
+			} else {
+				if (div1) { div1.style.width = '170px'; div1.style.display = 'block'; div1.style.visibility = 'visible'; }
+				if (div2) { div2.style.width = '170px'; div2.style.display = 'block'; div2.style.visibility = 'visible'; }
+			}
+		}
+
+		// =================================================================================
+		// Setupad.
+		//
+		// Their units are placement-named and multi-size. NOTHING below runs at page load:
+		// <head> left only the two SDK queues behind, and the first time the game shows an ad
+		// setupadBoot() fetches gpt.js and the SaaS bundle, setupadGetOrCreateDiv() builds that
+		// one container, and the slot is defined, displayed and initialized — one unit, on
+		// demand. Every other unit stays entirely unbuilt until it is asked for.
+		//
+		// The load sequence is the whole point: the game bundle is ~3MB of JS to compile and
+		// Setupad's is Prebid with every adapter attached, so anything that lets the two
+		// overlap costs a Chromebook seconds of frozen main thread. Do not move a defineSlot,
+		// a container or a <script> back up into <head> to "warm it up".
+		//
+		// A unit is torn down when the game hides it (stpd.terminateAdunit), which with
+		// display + initializeAdUnit is the documented pair. setupadtest.php exercises that
+		// cycle with none of the game around it, so if a unit misbehaves here, run it there
+		// before blaming Setupad.
+		//
+		// Hiding is a full teardown — terminate, destroy the GPT slot, empty the container —
+		// and a request re-defines the slot on the way back in. Terminating alone leaves the
+		// last creative sitting in the container, which shows up as the PREVIOUS ad flashing
+		// before the new one arrives. See setupadTeardown for why the steps nest.
+		// =================================================================================
+		var setupadUnits = {"hockey_bros":{"path":"\/21743024831\/hockey_bros","sizes":[[728,90],[300,250],[250,250],[200,200]],"w":728,"h":90},"midgame":{"path":"\/21743024831\/hockey_bros\/midgame","sizes":[[970,250],[728,90],[300,250],[250,250],[200,200]],"w":970,"h":250},"title_screen":{"path":"\/21743024831\/hockey_bros\/title_screen","sizes":[[300,250],[250,250],[200,200]],"w":300,"h":250},"postgame":{"path":"\/21743024831\/hockey_bros\/postgame","sizes":[[728,90],[300,250],[250,250],[200,200]],"w":728,"h":90},"wait_join":{"path":"\/21743024831\/hockey_bros\/wait_join","sizes":[[300,250],[250,250],[200,200]],"w":300,"h":250},"title_screen_2":{"path":"\/21743024831\/hockey_bros\/title_screen_2","sizes":[[300,250],[250,250],[200,200]],"w":300,"h":250}};
+		var setupadSlotMap = {"hockeybros-io_970x250":"midgame","hockeybros-io_728x90":"hockey_bros","hockeybros-io_728x90_m":"postgame","hockeybros-io_300x250":"title_screen","hockeybros-io_300x250_2":"title_screen_2"};
+		var setupadAllowed = {};   // game slot names currently wanted on screen
+		var setupadPos = {};       // unit -> last requested placement, replayed after a render
+		var setupadLive = {};      // unit -> has been initialized and not since torn down
+		var setupadLastLoad = {};  // unit -> timestamp of the last request
+		var setupadTearing = {};   // unit -> a teardown is still draining through the SDK queues
+		var setupadPendingLoad = {}; // unit -> a show arrived mid-teardown and is waiting on it
+		var setupadDivs = {};      // unit -> its container, built on first show
+		var setupadBooted = false; // have the SDKs been fetched yet?
+		var SETUPAD_TAG_ID = "11178";
+		var SETUPAD_TINT = true;
+
+		// Fetch gpt.js and the Setupad SaaS bundle, once, at the moment the first ad is really
+		// wanted — not at page load. The GPT config is queued before either script exists;
+		// googletag.cmd replays in order, so it is guaranteed to run before the first display().
+		function setupadBoot() {
+			if (setupadBooted) return;
+			setupadBooted = true;
+			googletag.cmd.push(function() {
+				googletag.pubads().disableInitialLoad();
+				googletag.pubads().enableSingleRequest();
+				googletag.pubads().collapseEmptyDivs();
+				googletag.enableServices();
+			});
+			[ 'https://securepubads.g.doubleclick.net/tag/js/gpt.js',
+			  'https://stpd.cloud/saas/' + SETUPAD_TAG_ID ].forEach(function(src) {
+				var s = document.createElement('script');
+				s.async = true;
+				s.src = src;
+				document.head.appendChild(s);
+			});
+			console.log('[SETUPAD] boot: fetching gpt.js + SaaS bundle (first ad requested)');
+		}
+
+		// A unit's container, or null if it has never been shown. Lookup only — never builds,
+		// so hide/teardown/position paths can't bring a container into being for a unit the
+		// game has not actually asked for.
+		function setupadDiv(unit) {
+			return setupadDivs[unit] || null;
+		}
+
+		// Build a unit's container the first time it is shown. Deliberately not in the markup:
+		// a container that already exists is something Setupad's wrapper can discover and
+		// auction without us asking, which is exactly the all-five-at-once load we are avoiding.
+		function setupadGetOrCreateDiv(unit) {
+			if (setupadDivs[unit]) return setupadDivs[unit];
+			var cfg = setupadUnits[unit];
+			if (!cfg) return null;
+			var div = document.createElement('div');
+			// The id IS the GPT slot element id and the name stpd.initializeAdUnit() takes.
+			div.id = unit;
+			div.style.cssText = 'width:' + cfg.w + 'px;height:' + cfg.h + 'px;display:none;' +
+				'visibility:hidden;position:absolute;top:30px;left:30px;z-index:100;overflow:hidden;' +
+				(SETUPAD_TINT ? 'background:rgba(128,128,128,0.25);' : '');
+			(document.getElementById('game2') || document.body).appendChild(div);
+			setupadDivs[unit] = div;
+			console.log('[SETUPAD] created container ' + unit);
+			return div;
+		}
+
+		// The game can ask for the same banner more than once for one event (a goal that lands
+		// on the buzzer re-shows the floor banner for the intermission). Re-requesting inside
+		// this window would burn an impression on an ad nobody has looked at yet.
+		var SETUPAD_MIN_RELOAD_MS = 10000;
+
+		// Point a game slot at a different Setupad unit, for trying a placement without a
+		// redeploy. The static map already covers every slot the game shows.
+		function SetSetupadUnit(divName, unitId) {
+			if (!setupadUnits[unitId]) { console.log('[SETUPAD] SetSetupadUnit: unknown unit ' + unitId); return; }
+			var prev = setupadSlotMap[divName];
+			if (prev === unitId) return;
+			setupadSlotMap[divName] = unitId;
+			// Another name may still point at the unit we moved off, so take it down only once
+			// nothing does.
+			if (prev) setupadReleaseUnit(prev);
+			console.log('[SETUPAD] ' + divName + ' -> ' + unitId);
+		}
+
+		// Is any game slot mapped to this unit currently meant to be on screen? Nothing shares
+		// a unit in the default map any more, but SetSetupadUnit can make two names collide, so
+		// the check stays.
+		function setupadWanted(unit) {
+			for (var name in setupadSlotMap) {
+				if (setupadSlotMap[name] === unit && setupadAllowed[name]) return true;
+			}
+			return false;
+		}
+
+		// Hide a unit unless some game slot still mapped to it is meant to be on screen.
+		function setupadReleaseUnit(unit) {
+			if (setupadWanted(unit)) return;
+			setupadHideUnit(unit);
+		}
+
+		function setupadSlot(unit) {
+			var slots = googletag.pubads().getSlots();
+			for (var i = 0; i < slots.length; i++) {
+				if (slots[i].getSlotElementId() === unit) return slots[i];
+			}
+			return null;
+		}
+
+		// Place the container using the coordinates the game gave us. Called on show with the
+		// unit's nominal size, and again from slotRenderEnded with whatever actually filled —
+		// a 300x250 landing in the 970x250 floor slot still has to sit on the floor, centred.
+		function setupadPosition(unit, w, h) {
+			var p = setupadPos[unit];
+			var el = setupadDiv(unit);
+			if (!p || !el) return;
+			if (!w || !h) { w = p.w; h = p.h; }
+
+			var contentDiv = document.getElementById('openfl-content');
+			var w2 = contentDiv ? contentDiv.offsetWidth : window.innerWidth;
+			var h2 = window.innerHeight;
+			var adPosX = w2 / 2 + p.x / (p.screenW / w2);
+			var adPosY = h2 / 2 + p.y / (p.screenH / h2);
+
+			if (p.yAlign === 'center') adPosY -= h / 2;
+			else if (p.yAlign === 'bottom') adPosY -= h;
+			if (p.xAlign === 'center') adPosX -= w / 2;
+			else if (p.xAlign === 'right') adPosX -= w;
+
+			if (contentDiv) adPosX += contentDiv.offsetLeft;
+
+			el.style.width = w + 'px';
+			el.style.height = h + 'px';
+			el.style.left = adPosX + 'px';
+			el.style.top = adPosY + 'px';
+		}
+
+		// display() activates the slot, initializeAdUnit() runs their auction and renders.
+		// Both queues are pushed rather than called: gpt.js and the SaaS bundle are async, and
+		// the first banner of a session is routinely asked for before either has landed.
+		//
+		// The slot is always (re)defined here rather than relied on from <head>, because every
+		// teardown destroys it — see setupadTeardown.
+		function setupadRequest(unit) {
+			var cfg = setupadUnits[unit];
+			if (!cfg) return;
+			setupadBoot();
+			setupadLastLoad[unit] = new Date().getTime();
+			setupadLive[unit] = true;
+			googletag.cmd.push(function() {
+				if (!setupadSlot(unit)) {
+					googletag.defineSlot(cfg.path, cfg.sizes, unit).addService(googletag.pubads());
+				}
+				googletag.display(unit);
+			});
+			stpd.que.push(function() {
+				if (typeof stpd.initializeAdUnit !== 'function') {
+					console.warn('[SETUPAD] initializeAdUnit missing — SaaS bundle blocked?');
+					return;
+				}
+				stpd.initializeAdUnit(unit);
+			});
+			SendEvent('event', 'setupad_banner_requested');
+		}
+
+		// Take a unit all the way down, then optionally do something once it's down.
+		//
+		// terminateAdunit() on its own only stops Setupad's refresh timer — the creative it
+		// last rendered stays in the container, so the next show flashed the PREVIOUS ad before
+		// the new one arrived. Destroying the GPT slot is what unbinds the iframe, and clearing
+		// innerHTML catches whatever is left; setupadRequest re-defines the slot on the way
+		// back in.
+		//
+		// The steps nest rather than run on a timer. Both queues are drained asynchronously by
+		// SDKs we don't control, so a terminate pushed to stpd.que and a display() pushed to
+		// googletag.cmd have no guaranteed order between them — the 50ms gap this used to rely
+		// on is exactly how a re-requested slot could get torn down again straight after being
+		// rebuilt, and then stay blank until something else showed it.
+		function setupadTeardown(unit, then) {
+			setupadLive[unit] = false;
+			setupadTearing[unit] = true;
+			stpd.que.push(function() {
+				if (typeof stpd.terminateAdunit === 'function') stpd.terminateAdunit(unit);
+				googletag.cmd.push(function() {
+					var slot = setupadSlot(unit);
+					if (slot) googletag.destroySlots([slot]);
+					var el = setupadDiv(unit);
+					if (el) el.innerHTML = '';
+					setupadTearing[unit] = false;
+					if (then) { then(); return; }
+					// A show that landed mid-teardown parked itself rather than racing it.
+					if (setupadPendingLoad[unit]) {
+						setupadPendingLoad[unit] = false;
+						if (setupadWanted(unit)) setupadLoad(unit);
+						return;
+					}
+					setupadSweepFrames();
+				});
+			});
+		}
+
+		// Frames that must survive a sweep whatever else goes.
+		//
+		// The IAB locator frames are how a CMP is found at all (window.frames['__tcfapiLocator']),
+		// and goog_topics_frame is GPT's own. They are named by spec, they are not creatives, and
+		// removing them breaks consent signalling and every later ad request.
+		var SETUPAD_KEEP_FRAME = /Locator$|^goog_topics_frame$|^google_esf$/;
+		var setupadGameFrame = null;
+
+		// Ad creatives and their verification vendors (viewability, brand safety, user sync)
+		// append iframes to document.body, OUTSIDE the slot container. destroySlots() takes the
+		// slot's own iframe and innerHTML='' takes what was inside the container — neither
+		// touches these, so every auction leaves another set behind and they keep running.
+		// Across a match that is one set per goal, which is why the banner after a goal is the
+		// one that makes a Chromebook crawl, and why it stays choppy after the ad is gone.
+		//
+		// A leftover frame that holds focus is also what feeds the 30ms activeElement watchdog
+		// further down this file: it blurs and refocuses 33 times a second, forever.
+		//
+		// Only ever runs with nothing live, so it cannot remove a frame belonging to an ad that
+		// is currently on screen — that is the whole safety argument, and it means the sweep
+		// happens during play, when the CPU should be the game's anyway.
+		function setupadSweepFrames() {
+			for (var u in setupadUnits) {
+				if (setupadLive[u] || setupadTearing[u]) return;
+			}
+			if (!setupadGameFrame) setupadGameFrame = document.querySelector('#openfl-content iframe');
+			var frames = document.getElementsByTagName('iframe');
+			var killed = 0;
+			for (var i = frames.length - 1; i >= 0; i--) {
+				var f = frames[i];
+				if (f === setupadGameFrame) continue;
+				if (f.parentNode && f.parentNode.tagName === 'NOSCRIPT') continue;
+				if (SETUPAD_KEEP_FRAME.test(f.name || '')) continue;
+				// Leave zero-area frames alone. Bidder user-sync pixels are 0x0 or 1x1, they
+				// fire once and then idle, and they are what lets the next auction match a
+				// user — sweeping them costs bid density on every later request and buys no
+				// CPU back, because the frames that actually keep working are the viewability
+				// and verification ones attached to a rendered creative, and those have size.
+				if (f.offsetWidth <= 1 && f.offsetHeight <= 1) continue;
+				try { f.src = 'about:blank'; } catch (e) {}
+				if (f.parentNode) f.parentNode.removeChild(f);
+				killed++;
+			}
+			if (killed) console.log('[SETUPAD] swept ' + killed + ' leftover ad frame(s)');
+		}
+
+		// Console helper: what is still on the page right now. Run it on the Chromebook after a
+		// few goals — a count that climbs per goal is a leak the sweep is not catching.
+		function SetupadFrameReport() {
+			var frames = document.getElementsByTagName('iframe');
+			var kept = [], other = [];
+			for (var i = 0; i < frames.length; i++) {
+				var f = frames[i];
+				var tag = (f.name || f.id || '(anonymous)') + ' ' + (f.src || '').slice(0, 60);
+				(f === setupadGameFrame || SETUPAD_KEEP_FRAME.test(f.name || '') ? kept : other).push(tag);
+			}
+			console.log('[SETUPAD] frames: ' + frames.length + ' total, ' + other.length + ' sweepable');
+			console.log('  live units : ' + Object.keys(setupadUnits).filter(function (u) { return setupadLive[u]; }));
+			other.forEach(function (t) { console.log('  sweepable: ' + t); });
+			kept.forEach(function (t) { console.log('  kept     : ' + t); });
+			return frames.length;
+		}
+
+		function setupadLoad(unit) {
+			// stpd.que and googletag.cmd drain independently, so a request issued while a
+			// teardown is still working its way through them can be destroyed by the tail of
+			// that teardown and leave the slot blank. Wait for it instead.
+			if (setupadTearing[unit]) {
+				setupadPendingLoad[unit] = true;
+				console.log('[SETUPAD] ' + unit + ': teardown in flight, load queued');
+				return;
+			}
+			var now = new Date().getTime();
+			if (setupadLive[unit]) {
+				if (now - (setupadLastLoad[unit] || 0) < SETUPAD_MIN_RELOAD_MS) {
+					console.log('[SETUPAD] ' + unit + ': still fresh, not re-requesting');
+					return;
+				}
+				// A live unit has to be torn down before it will take a new request.
+				setupadTeardown(unit, function() { setupadRequest(unit); });
+				return;
+			}
+			setupadRequest(unit);
+		}
+
+		function setupadHideUnit(unit) {
+			var el = setupadDiv(unit);
+			if (el) {
+				el.style.display = 'none';
+				el.style.visibility = 'hidden';
+			}
+			setupadPendingLoad[unit] = false;
+			if (setupadLive[unit]) setupadTeardown(unit);
+		}
+
+		// Called from Haxe Main.ShowAd() (via ShowOptiAd) when setupadAds is true.
+		function ShowSetupadAd(divName, theX, theY, xAlign, yAlign, doRefresh, screenW, screenH) {
+			if (/Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent)) return;
+			var unit = setupadSlotMap[divName];
+			if (!unit) { console.log('[SETUPAD] ShowSetupadAd: no unit for ' + divName); return; }
+			var cfg = setupadUnits[unit];
+			var el = setupadGetOrCreateDiv(unit);
+			if (!cfg || !el) { console.warn('[SETUPAD] ShowSetupadAd: no container for ' + unit); return; }
+
+			setupadAllowed[divName] = true;
+			setupadPos[unit] = { x: theX, y: theY, xAlign: xAlign, yAlign: yAlign,
+			                     screenW: screenW, screenH: screenH, w: cfg.w, h: cfg.h };
+
+			// Show before requesting. Setupad will not fill a container it can't see, and the
+			// hide-then-request order is what the GAME cycle button in setupadtest.php is for.
+			el.style.display = 'block';
+			el.style.visibility = 'visible';
+			setupadPosition(unit);
+
+			// doRefresh=false means "don't burn a fresh request, the ad is already there" — it
+			// dates from adinplay, where hiding a zone left the creative in the div and showing
+			// it again just un-hid it. Nothing here works that way: hiding destroys the slot and
+			// empties the container, and a unit that has never loaded has nothing to reveal at
+			// all. So the flag only suppresses a RE-request; an unloaded unit always loads.
+			//
+			// TitleScreen is the only caller that passes false (on its first show, and again on
+			// every relayout), which is why the title screen was the one screen left blank once
+			// the pre-built containers went away and Setupad's wrapper stopped auto-auctioning
+			// them for us.
+			if (doRefresh || !setupadLive[unit]) setupadLoad(unit);
+			console.log('[SETUPAD] show ' + divName + ' -> ' + unit + ' at ' + el.style.left + ',' + el.style.top);
+		}
+
+		// Called from Haxe Main.HideAd() (via HideOptiAd) when setupadAds is true.
+		function HideSetupadAd(divName) {
+			delete setupadAllowed[divName];
+			var unit = setupadSlotMap[divName];
+			if (!unit) {
+				// Not a banner — 'loading', 'logo' and friends still come through here.
+				var other = document.getElementById(divName);
+				if (other) { other.style.display = 'none'; other.style.visibility = 'hidden'; }
+				return;
+			}
+			// A unit can be driven by more than one name; only tear it down once nothing wants it.
+			setupadReleaseUnit(unit);
+		}
+
+		function HideAllSetupadAds() {
+			setupadAllowed = {};
+			for (var unit in setupadUnits) setupadHideUnit(unit);
+			// Nothing was live to tear down (so no teardown will call the sweep), but a previous
+			// cycle may still have left frames behind. Cheap: it early-outs if anything is live.
+			setupadSweepFrames();
+			console.log('[SETUPAD] HideAllAds');
+		}
+
+		if (window.setupadAds) {
+			googletag.cmd.push(function() {
+				googletag.pubads().addEventListener('slotRenderEnded', function(e) {
+					var unit = e.slot.getSlotElementId();
+					if (!setupadUnits[unit]) return;
+					if (e.isEmpty || !e.size || !e.size.length) {
+						console.log('[SETUPAD] ' + unit + ': no fill');
+						return;
+					}
+					// Re-anchor to the creative that actually arrived — every unit accepts
+					// several sizes, so the box the game reserved is an upper bound, not a
+					// promise.
+					setupadPosition(unit, e.size[0], e.size[1]);
+					console.log('[SETUPAD] ' + unit + ': rendered ' + e.size[0] + 'x' + e.size[1]);
+				});
+			});
+		}
+
+		// Opti Digital: slot mapping from AIP div names to Opti slot class names.
+		// w/h = known ad dimensions. Divs are created lazily on first show (creating them up
+		// front would leave Opti lazy-loading slots that are display:none and never load), then
+		// kept for the life of the page and refreshed — see optiHideDiv.
+		//
+		// Slots the game asks for that are NOT in here (160x600, 336x280) are a deliberate no-op
+		// under Opti: banners only, and Opti has no skyscraper unit configured for us.
+		var optiSlotMap = {};
+		var optiAllowed = {};   // which divNames are currently allowed to be visible
+		var optiDivs = {};      // dynamically created divs, keyed by className
+		if (window.optiAds && !window.setupadAds) {
+			optiSlotMap[adPrefix+'_970x250'] = { className: 'Billboard_1', w: 970, h: 250 };
+			optiSlotMap[adPrefix+'_728x90'] = { className: 'Leaderboard_1', w: 728, h: 90 };
+			optiSlotMap[adPrefix+'_728x90_m'] = { className: 'Leaderboard_1', w: 728, h: 90 };
+			optiSlotMap[adPrefix+'_300x250'] = { className: 'Rectangle_1', w: 300, h: 250 };
+			optiSlotMap[adPrefix+'_300x250_2'] = { className: 'Rectangle_2', w: 300, h: 250 };
+			optiSlotMap[adPrefix+'_300x600'] = { className: 'HalfpageAd_1', w: 300, h: 600 };
+		}
+
+		// Look up an existing Opti div without creating one.
+		function optiGetDiv(slot) {
+			return optiDivs[slot.className] || null;
+		}
+
+		// Apply stored positioning to the current posTarget (wrapper if wrapped, else inner div)
+		function optiApplyPosition(div) {
+			var pos = div._optiPos;
+			if (!pos) return;
+			var posTarget = div.closest('.optidigital-wrapper-div') || div;
+			posTarget.style.display = 'block';
+			posTarget.style.position = 'absolute';
+			posTarget.style.zIndex = '100';
+			posTarget.style.width = pos.w + 'px';
+			posTarget.style.height = pos.h + 'px';
+			posTarget.style.left = pos.x + 'px';
+			posTarget.style.top = pos.y + 'px';
+		}
+
+		// Get the Opti div for a slot, creating it on first call.
+		// Opti's SDK auto-discovers new divs, sets up the GPT slot, and loads the ad.
+		// On first creation, also installs a MutationObserver so when the SDK wraps our div
+		// with .optidigital-wrapper-div we re-apply positioning to the wrapper.
+		function optiGetOrCreateDiv(slot) {
+			if (optiDivs[slot.className]) return optiDivs[slot.className];
+			var div = document.createElement('div');
+			div.className = slot.className;
+			div.style.position = 'absolute';
+			div.style.zIndex = '100';
+			div.style.overflow = 'hidden';
+			div.style.display = 'block';
+			document.body.appendChild(div);
+			optiDivs[slot.className] = div;
+
+			// Watch for the SDK wrapping our div — re-apply positioning to the wrapper when it appears
+			var wrapped = false;
+			var observer = new MutationObserver(function() {
+				if (wrapped) return;
+				if (div.closest('.optidigital-wrapper-div')) {
+					wrapped = true;
+					optiApplyPosition(div);
+					console.log('[OPTI] .' + slot.className + ' wrapped, re-applied position');
+					observer.disconnect();
+				}
+			});
+			observer.observe(document.body, { childList: true, subtree: true });
+
+			console.log('[OPTI] created div .' + slot.className);
+			return div;
+		}
+
+		// Override the Opti Digital ad unit path (e.g. /21743024831/hockey_bros/home)
+		function SetOptiAdUnit(path) {
+			if (!window.optiAds) return;
+			try {
+				if (typeof odT !== 'undefined' && odT.initConfig) {
+					odT.initConfig.adUnit = path;
+					console.log('[OPTI] adUnit set to: ' + path);
+				} else {
+					console.log('[OPTI] SetOptiAdUnit: odT not ready, queuing');
+					// Retry once after a short delay in case SDK hasn't initialized yet
+					setTimeout(function() {
+						if (typeof odT !== 'undefined' && odT.initConfig) {
+							odT.initConfig.adUnit = path;
+							console.log('[OPTI] adUnit set to (delayed): ' + path);
+						}
+					}, 500);
+				}
+			} catch(e) { console.log('[OPTI] SetOptiAdUnit error: ' + e); }
+		}
+
+		// Entry point the shipped game bundle calls for any page-managed provider — Setupad
+		// takes it when it's the active one. See the window.optiAds note in <head>.
+		function ShowOptiAd(divName, theX, theY, xAlign, yAlign, doRefresh, screenW, screenH) {
+			if (window.setupadAds) { ShowSetupadAd(divName, theX, theY, xAlign, yAlign, doRefresh, screenW, screenH); return; }
+			if (/Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent)) return;
+			var slot = optiSlotMap[divName];
+			if (!slot) { console.log('[OPTI] ShowOptiAd: no mapping for ' + divName); return; }
+
+			// First show creates the div; Opti's module discovers it and loads the initial ad by
+			// itself, so a refresh on that same call would double-request the slot.
+			var isFirstShow = !optiDivs[slot.className];
+			var aDiv = optiGetOrCreateDiv(slot);
+
+			// Position using known dimensions
+			var contentEl = document.getElementById('openfl-content');
+			var w2 = contentEl ? contentEl.offsetWidth : window.innerWidth;
+			var h2 = window.innerHeight;
+			var aScaleX = screenW / w2;
+			var aScaleY = screenH / h2;
+			var adPosX = w2 / 2 + theX / aScaleX;
+			var adPosY = h2 / 2 + theY / aScaleY;
+
+			if (yAlign === 'center') adPosY -= slot.h / 2;
+			else if (yAlign === 'bottom') adPosY -= slot.h;
+			if (xAlign === 'center') adPosX -= slot.w / 2;
+			else if (xAlign === 'right') adPosX -= slot.w;
+
+			if (contentEl) {
+				adPosX += contentEl.offsetLeft;
+				adPosY += contentEl.offsetTop;
+			}
+
+			// Store desired position so the wrap observer can re-apply it after SDK wraps the div
+			aDiv._optiPos = { x: adPosX, y: adPosY, w: slot.w, h: slot.h };
+			optiApplyPosition(aDiv);
+
+			optiAllowed[divName] = true;
+
+			// Refresh GPT slot if it exists. On first show the SDK hasn't yet bound a slot —
+			// it will discover the new div and load the initial ad on its own.
+			if (doRefresh && !isFirstShow) {
+				googletag.cmd.push(function() {
+					if (!optiAllowed[divName]) return;
+					var gptSlots = googletag.pubads().getSlots();
+					for (var i = 0; i < gptSlots.length; i++) {
+						var slotEl = gptSlots[i].getSlotElementId();
+						var el = document.getElementById(slotEl);
+						if (el && aDiv.contains(el)) {
+							googletag.pubads().refresh([gptSlots[i]]);
+							console.log('[OPTI] GPT refresh slot: ' + slotEl + ' for ' + divName);
+							break;
+						}
+					}
+				});
+				SendEvent('event', 'opti_banner_requested');
+			}
+			console.log('[OPTI] ShowOptiAd: ' + divName + ' -> .' + slot.className + ' at ' + Math.round(adPosX) + ',' + Math.round(adPosY));
+		}
+
+		// Hide a slot without tearing it down. Removing the div (what this used to do) orphans the
+		// GPT slot Opti bound to it, and the next show creates a second slot for the same class —
+		// over a match's worth of goals and intermissions that piles up duplicate slots and Opti
+		// stops filling. Keep the div, hide it, refresh it on the next show instead.
+		function optiHideDiv(slot) {
+			var aDiv = optiDivs[slot.className];
+			if (!aDiv) return;
+			var posTarget = aDiv.closest('.optidigital-wrapper-div') || aDiv;
+			posTarget.style.display = 'none';
+		}
+
+		function HideOptiAd(divName) {
+			if (window.setupadAds) { HideSetupadAd(divName); return; }
+			delete optiAllowed[divName];
+			var slot = optiSlotMap[divName];
+			if (slot) {
+				// Two div names can share one class (728x90 / 728x90_m -> Leaderboard_1); only
+				// hide once nothing still wants it on screen.
+				for (var other in optiSlotMap) {
+					if (optiSlotMap[other].className === slot.className && optiAllowed[other]) return;
+				}
+				optiHideDiv(slot);
+			} else {
+				var aDiv = document.getElementById(divName);
+				if (aDiv) aDiv.style.display = 'none';
+			}
+		}
+
+
+		// Base function to show a single banner ad unit
+		function ShowUnitBannerAd(config) {
+			if (!config.allowMobile && /Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent)) {
+				return;
+			}
+
+			if (config.minWindowWidth && window.innerWidth < config.minWindowWidth) {
+				return;
+			}
+
+			const now = new Date().getTime();
+			if (!adRefreshStates[config.timerId]) {
+				adRefreshStates[config.timerId] = 0; // Initialize if not set
+			}
+
+			if (config.refreshTimeout > 0 && (now - adRefreshStates[config.timerId] < config.refreshTimeout)) {
+				return;
+			}
+
+			var adElement;
+			if (window.ascAds) {
+				adElement = ascGetDiv(config.elementId);
+			} else {
+				adElement = window.document.getElementById(config.elementId);
+			}
+			if (!adElement) {
+				console.warn('ShowUnitBannerAd: element NOT found:', config.elementId);
+				return;
+			}
+			adElement.style.display = '';
+			adElement.style.visibility = 'visible';
+
+			if (window.ascAds) {
+				console.log('[ASC] ShowUnitBannerAd: entering provider check for "' + config.elementId + '"');
+				console.log('[ASC]   gCrazySDK:', typeof gCrazySDK);
+				console.log('[ASC]   window.ascAds:', window.ascAds);
+				console.log('[ASC]   pbjs:', typeof pbjs);
+				console.log('[ASC]   pbjs.refreshSlot:', typeof (pbjs || {}).refreshSlot);
+				console.log('[ASC]   config.aipRefreshId:', config.aipRefreshId);
+				console.log('[ASC]   aipDisplayTag:', typeof aipDisplayTag);
+			}
+
+			if (typeof gCrazySDK !== 'undefined') {
+				if (config.crazySdkBannerIds && config.crazySdkBannerIds.length > 0) {
+					gCrazySDK.requestResponsiveBanner(config.crazySdkBannerIds);
+					adRefreshStates[config.timerId] = now;
+				}
+			} else if (window.ascAds && typeof pbjs !== 'undefined' && typeof pbjs.refreshSlot === 'function' && config.aipRefreshId) {
+				console.log('[ASC] ShowUnitBannerAd: refreshing slot "' + config.aipRefreshId + '" for element "' + config.elementId + '"');
+				pbjs.refreshSlot(config.aipRefreshId);
+				SendEvent('event', 'asc_banner_requested');
+				adRefreshStates[config.timerId] = now;
+			} else if (typeof aipDisplayTag !== 'undefined' && config.aipRefreshId) {
+				showTag(config.aipRefreshId);
+				SendEvent('event', 'aip_banner_requested');
+				adRefreshStates[config.timerId] = now;
+			} else {
+				// Ads are likely blocked
+				if (config.adBlockedFallbackImage) {
+					adElement.style.backgroundImage = `url(${config.adBlockedFallbackImage})`;
+					SendEvent('event', 'banner_adblocked_message_shown');
+				} else {
+					SendEvent('event', 'banner_adblocked');
+				}
+			}
+		}
+
+		function ShowAd1() { // doRefresh parameter was unused
+			if (/Android|webOS|iPhone|iPad|iPod|Opera Mini/i.test(navigator.userAgent)) { // Outer mobile check
+ 				return;
+			}
+
+			const commonConfig = {
+				allowMobile: false, // ShowUnitBannerAd will re-check, this is for consistency
+				minWindowWidth: 0,
+				performProsperLegacyCheck: false,
+				adBlockedFallbackImage: null, // Original ShowAd1 had no specific fallback image
+			};
+
+			if (typeof gCrazySDK !== 'undefined') {
+				// gCrazySDK is active
+				ShowUnitBannerAd({
+					...commonConfig,
+					timerId: "showAd1_gCrazySdkTimer",
+					elementId: adPrefix+'_160x600',
+					crazySdkBannerIds: [adPrefix+'_160x600'],
+					aipRefreshId: null,
+					refreshTimeout: 10000
+				});
+
+				ShowUnitBannerAd({
+					...commonConfig,
+					timerId: "showAd1_el2_gCrazySdkPath_visTimer",
+					elementId: adPrefix+'_160x600_2',
+					crazySdkBannerIds: null,
+					aipRefreshId: null,
+					refreshTimeout: 0
+				});
+			} else if (window.ascAds || typeof aipDisplayTag !== 'undefined') {
+				ShowUnitBannerAd({
+					...commonConfig,
+					timerId: "showAd1_el1_aipTimer",
+					elementId: adPrefix+'_160x600',
+					crazySdkBannerIds: null,
+					aipRefreshId: adPrefix+'_160x600',
+					refreshTimeout: 0
+				});
+				ShowUnitBannerAd({
+					...commonConfig,
+					timerId: "showAd1_el2_aipTimer",
+					elementId: adPrefix+'_160x600_2',
+					crazySdkBannerIds: null,
+					aipRefreshId: adPrefix+'_160x600_2',
+					refreshTimeout: 0
+				});
+			} else {
+				ShowUnitBannerAd({ ...commonConfig, timerId: "showAd1_el1_fallbackTimer", elementId: adPrefix+'_160x600', crazySdkBannerIds: null, aipRefreshId: null, refreshTimeout: 0 });
+				ShowUnitBannerAd({ ...commonConfig, timerId: "showAd1_el2_fallbackTimer", elementId: adPrefix+'_160x600_2', crazySdkBannerIds: null, aipRefreshId: null, refreshTimeout: 0 });
+			}
+		}
+
+		function ShowAd6()
+		{
+			ShowUnitBannerAd({
+				timerId: "showAd6Timer",
+				elementId: adPrefix+'_300x250',
+				allowMobile: true,
+				minWindowWidth: 0,
+				crazySdkBannerIds: null,
+				aipRefreshId: adPrefix+'_300x250',
+				performProsperLegacyCheck: true,
+				adBlockedFallbackImage: null,
+				refreshTimeout: 10000
+			});
+		}
+
+		function ShowAd2()
+		{
+			ShowUnitBannerAd({
+				timerId: "showAd2Timer",
+				elementId: adPrefix+'_300x250_2',
+				allowMobile: false,
+				minWindowWidth: 0,
+				crazySdkBannerIds: [adPrefix+'_300x250', adPrefix+'_300x250_2'],
+				aipRefreshId: adPrefix+'_300x250_2',
+				performProsperLegacyCheck: true,
+				adBlockedFallbackImage: null,
+				refreshTimeout: 10000
+			});
+		}
+
+		function ShowAd3()
+		{
+			ShowUnitBannerAd({
+				timerId: "showAd3Timer",
+				elementId: adPrefix+'_728x90',
+				allowMobile: false,
+				minWindowWidth: 0,
+				crazySdkBannerIds: [adPrefix+'_728x90'],
+				aipRefreshId: adPrefix+'_728x90',
+				performProsperLegacyCheck: false,
+				adBlockedFallbackImage: null,
+				refreshTimeout: 0
+			});
+		}
+
+		function ShowAd4()
+		{
+			ShowUnitBannerAd({
+				timerId: "showAd4Timer",
+				elementId: adPrefix+'_336x280',
+				allowMobile: false,
+				minWindowWidth: 1200,
+				crazySdkBannerIds: [adPrefix+'_336x280'],
+				aipRefreshId: adPrefix+'_336x280',
+				performProsperLegacyCheck: true,
+				adBlockedFallbackImage: null,
+				refreshTimeout: 0
+			});
+		}
+
+		function ShowAd7()
+		{
+			ShowUnitBannerAd({
+				timerId: "showAd7Timer",
+				elementId: adPrefix+'_336x280_2',
+				allowMobile: false,
+				minWindowWidth: 1200,
+				crazySdkBannerIds: [adPrefix+'_336x280_2'],
+				aipRefreshId: adPrefix+'_336x280_2',
+				performProsperLegacyCheck: true,
+				adBlockedFallbackImage: null,
+				refreshTimeout: 0
+			});
+		}
+
+		function ShowAd8()
+		{
+			ShowUnitBannerAd({
+				timerId: "showAd8Timer",
+				elementId: adPrefix+'_728x90_m',
+				allowMobile: false,
+				minWindowWidth: 0,
+				crazySdkBannerIds: [adPrefix+'_728x90'],
+				aipRefreshId: adPrefix+'_728x90_m',
+				performProsperLegacyCheck: false,
+				adBlockedFallbackImage: null,
+				refreshTimeout: 0
+			});
+		}
+
+		function ShowAd9()
+		{
+			ShowUnitBannerAd({
+				timerId: "showAd9Timer",
+				elementId: adPrefix+'_970x250',
+				allowMobile: false,
+				minWindowWidth: 0,
+				crazySdkBannerIds: [adPrefix+'_970x250'],
+				aipRefreshId: adPrefix+'_970x250',
+				performProsperLegacyCheck: true,
+								adBlockedFallbackImage: "assets/turnoff.jpg",
+								refreshTimeout: 0
+			});
+		}
+
+		function ShowAd10()
+		{
+			ShowUnitBannerAd({
+				timerId: "showAd10Timer",
+				elementId: adPrefix+'_300x600',
+				allowMobile: false,
+				minWindowWidth: 0,
+				crazySdkBannerIds: [adPrefix+'_300x600'],
+				aipRefreshId: adPrefix+'_300x600',
+				performProsperLegacyCheck: true,
+				refreshTimeout: 0
+			});
+		}
+
+
+
+		function right(str, chr)
+		{
+ 			 return str.slice(str.length-chr,str.length);
+		}
+		function SetCGInviteLink()
+		{
+			if(typeof gCrazySDK !== 'undefined')
+			{
+				var meta = document.getElementById ("cglink");
+				var aStr = meta.value;
+				aStr = right(aStr, 8);
+				var aCGLink = gCrazySDK.inviteLink({ roomId: aStr });
+				meta.value = aCGLink;
+				meta.select
+				document.execCommand('Copy')
+				console.log("COPIED CG URL");
+			}
+		}
+
+		function ShowAdBreak() {
+			//check if the adslib is loaded correctly or blocked by adblockers etc.
+			if(typeof gCrazySDK !== 'undefined')
+			{
+				Main.DoneInterstitialAd(false);
+				return;
+			}
+
+			if(window.ascAds) {
+				console.log('[ASC] ShowAdBreak: skipping interstitial (not supported by asc)');
+				Main.DoneInterstitialAd(false);
+				return;
+			}
+
+			if(window.setupadAds) {
+				console.log('[SETUPAD] ShowAdBreak: no interstitial unit, completing immediately');
+				Main.DoneInterstitialAd(false);
+				return;
+			}
+
+			if(window.optiAds) {
+				console.log('[OPTI] ShowAdBreak: no interstitial support, completing immediately');
+				Main.DoneInterstitialAd(false);
+				return;
+			}
+
+						if(typeof adplayer === 'undefined' ) {
+				Main.DoneInterstitialAd(true);
+				return;
+			}
+			aiptag.cmd.player.push(function() { adplayer.startAdBreak(); });
+		}
+
+
+		document.getElementById("openfl-content").addEventListener("wheel", doScroll);
+		document.getElementById("more").addEventListener("wheel", doScroll);
+		function doScroll(event) {
+  			window.scroll(0, window.scrollY + event.deltaY);
+		};
+
+		setInterval(function () {
+			//console.log("active element:" + document.activeElement);
+			if (document.activeElement.tagName == "IFRAME") {
+        		document.activeElement.blur();
+				document.getElementById('openfl-content').focus();
+				//console.log('refocusing');
+    		}
+		}, 30);
+
+
+		var sid = "4f7e0a48977231ae6ee2";
+		function updateStatus(fromEvent = false)
+		{
+			const req = new XMLHttpRequest();
+			var aStr = "recordsession.php?s="+sid;
+			if(fromEvent == true)  aStr = aStr + "&e=1"
+			req.open("GET", aStr);
+			req.send();
+		}
+		function SendEvent(theEvent, theAction, theParms = '') {
+			if(theParms == '') {
+				gtag(theEvent, theAction);
+			} else {
+				gtag(theEvent, theAction, theParms);
+			}
+			updateStatus(true);
+			console.log("Sending event: " + theEvent + "/" + theAction + "/" + theParms);
+		}
+		// Heartbeat, so CCU reflects people who are actually playing.
+		//
+		// recordsession.php only refreshes a session's Date when updateStatus() runs, and that
+		// used to happen on load plus inside SendEvent() — i.e. only on milestones (game start,
+		// period end, goal, win/lose). current_ccu.php counts sessions touched in the last 300s,
+		// so a player sitting in character select, or grinding through a scoreless period, goes
+		// quiet and drops out of CCU while still playing. That's why GA's 5-minute realtime
+		// number runs well above ours: gtag keeps its own engagement heartbeat going.
+		//
+		// 120s leaves two full pings of headroom inside the 300s window, so one dropped request
+		// doesn't evict a live player. Pass true: current_ccu.php deletes every FromEvent = 0
+		// row outright, and REPLACE INTO keys on SessionUniqueID — a fromEvent=false ping would
+		// overwrite the player's good row with one the next sample purges, which is worse than
+		// not pinging at all.
+		//
+		// Only while visible. A backgrounded tab isn't a concurrent user and GA4 doesn't count
+		// one either; pinging regardless would push CCU past both GA and the truth.
+		setInterval(function() {
+			if(document.visibilityState === 'visible') updateStatus(true);
+		}, 120*1000);
+
+		// Returning to the tab counts right away rather than up to 120s later.
+		document.addEventListener('visibilitychange', function() {
+			if(document.visibilityState === 'visible') updateStatus(true);
+		});
+
+		//setInterval( function() {
+		//	window.scrollTo(0, 0);
+		//}, 2000 );
+		updateStatus(true);
+
+		//setInterval(ClearAds, 2000);
+
+		function EmailSignup() {
+			if(document.getElementById("signup") || document.getElementById("deleteme")) return;
+			const iframe = document.createElement("iframe");
+			iframe.src = "https://bluewizard.com/subscribe-to-bbros/";
+
+//			iframe.style.display = "block";
+			iframe.style.width = "550px";
+			iframe.style.height = ""+window.innerHeight-100+"px";
+			iframe.style.position = "absolute";
+			iframe.style.top = "50px";
+			iframe.style.left = "50%";
+			iframe.style["margin-left"] = "-225px";
+			//iframe.style["margin-right"] = "-275px";
+			iframe.style["max-width"] = "100%";
+			iframe.setAttribute("id", "signup");
+
+			document.body.appendChild(iframe);
+		}
+
+		function HideAllAds(hideSides)
+		{
+			console.log("HideAllAds");
+
+			// The boot spinner and the logo sit over the game like a banner does, and every
+			// screen that clears ads wants them gone too. Haxe's Main.HideAllAds() also asks for
+			// these, but do it here as well so calling the page function directly is enough.
+			HideAd('loading');
+			HideAd('logo');
+
+			// Explicitly hide all ad unit divs
+			HideAd(adPrefix+'_300x250');
+			HideAd(adPrefix+'_300x250_2');
+			HideAd(adPrefix+'_336x280');
+			HideAd(adPrefix+'_336x280_2');
+			HideAd(adPrefix+'_728x90');
+			HideAd(adPrefix+'_728x90_m');
+			HideAd(adPrefix+'_970x250');
+			HideAd(adPrefix+'_160x600');
+			HideAd(adPrefix+'_160x600_2');
+			HideAd(adPrefix+'_300x600');
+
+			if(typeof $msstart !== 'undefined')
+			{
+				$msstart.hideDisplayAdsAsync().then(response => {
+					// Returns string indicating success if ad was hidden successfully
+				});
+				console.log("MS ads destroyed");
+			}
+			if(typeof gCrazySDK !== 'undefined') {
+				gCrazySDK.clearAllBanners();
+				console.log("CG ads destroyed");
+			}
+			if(typeof aipDisplayTag !== 'undefined') {
+				// destroy() tears down every zone, so nothing is live afterwards. Skip the call
+				// entirely when nothing was showing — HideAllAds fires constantly during play and
+				// there's no point destroying an empty set over and over.
+				var anyLive = false;
+				for (var z in aipZoneLive) { if (aipZoneLive[z]) { anyLive = true; break; } }
+				if (anyLive) {
+					aipDisplayTag.destroy();
+					aipZoneLive = {};
+					console.log("AIP ads destroyed");
+				}
+			}
+			if(window.ascAds) {
+				console.log('[ASC] HideAllAds: destroying all slots and removing dynamic divs');
+				if (typeof pbjs !== 'undefined' && typeof pbjs.destroyAllSlots === 'function') {
+					pbjs.destroyAllSlots();
+					console.log('[ASC] HideAllAds: destroyAllSlots() called');
+				}
+				// Remove all dynamically created asc divs from DOM and clear cache
+				// so they get recreated fresh on next ShowAscAd
+				for (var slotName in ascDivCache) {
+					if (ascDivCache[slotName] && ascDivCache[slotName].parentNode) {
+						ascDivCache[slotName].parentNode.removeChild(ascDivCache[slotName]);
+					}
+				}
+				ascDivCache = {};
+			}
+			if(window.setupadAds) {
+				HideAllSetupadAds();
+			}
+			else if(window.optiAds) {
+				// Hide, don't remove — see optiHideDiv. The divs and their GPT slots stay bound
+				// for the life of the page and get refreshed the next time the game shows them.
+				optiAllowed = {};
+				for (var key in optiDivs) {
+					var d = optiDivs[key];
+					if (d) {
+						var posTarget = d.closest('.optidigital-wrapper-div') || d;
+						posTarget.style.display = 'none';
+					}
+				}
+				console.log('[OPTI] HideAllAds');
+			}
+			//killAdSubframes();
+
+		}
+
+		function HideAd(divName, justClear) {
+			if (justClear === undefined) justClear = false;
+			if (window.setupadAds) { HideSetupadAd(divName); return; }
+			if (window.optiAds) { HideOptiAd(divName); return; }
+			if (window.ascAds) { HideAscAd(divName, justClear); return; }
+			var aDiv = document.getElementById(divName);
+			if (aDiv != null) {
+				if (!justClear) {
+					aDiv.style.display = "none";
+					aDiv.style.visibility = "hidden";
+				}
+				// Blowing away the innerHTML throws away the creative, so the zone has to be
+				// display()'d again rather than refresh()'d next time round.
+				aDiv.innerHTML = " ";
+				aipZoneLive[divName] = false;
+			}
+		}
+
+		// Kill ad-spawned iframes (viewability trackers, verification scripts, etc.)
+		// that ad SDKs append to document.body outside of the ad container divs.
+		// The game iframe is preserved. The parent-page adinplay SDK stays warm.
+		var gameIframeRef = null;
+		function killAdSubframes() {
+			if (!gameIframeRef) {
+				gameIframeRef = document.querySelector('#openfl-content iframe');
+			}
+			var iframes = document.querySelectorAll('iframe');
+			for (var i = iframes.length - 1; i >= 0; i--) {
+				var f = iframes[i];
+				// Keep the game iframe and the GTM noscript iframe
+				if (f === gameIframeRef) continue;
+				if (f.parentNode && f.parentNode.tagName === 'NOSCRIPT') continue;
+				// Kill it
+				f.src = 'about:blank';
+				if (f.parentNode) f.parentNode.removeChild(f);
+			}
+		}
+
+		function ShowAdPosition(divName, theX, theY, xAlign, yAlign, doRefresh, screenW, screenH) {
+			if (window.setupadAds) { ShowSetupadAd(divName, theX, theY, xAlign, yAlign, doRefresh, screenW, screenH); return; }
+			if (window.optiAds) { ShowOptiAd(divName, theX, theY, xAlign, yAlign, doRefresh, screenW, screenH); return; }
+			if (window.ascAds) { ShowAscAd(divName, theX, theY, xAlign, yAlign, doRefresh); return; }
+			var aDiv = document.getElementById(divName);
+			if (aDiv == null) return;
+
+			aDiv.style.display = "block";
+			aDiv.style.visibility = "visible";
+
+			if (doRefresh) {
+				switch (divName) {
+					case adPrefix+'_160x600':
+						var aDiv2 = document.getElementById(divName + "_2");
+						if (aDiv2) { aDiv2.style.display = "block"; aDiv2.style.visibility = "visible"; }
+						ShowAd1(); return;
+					case adPrefix+'_300x250': ShowAd6(); break;
+					case adPrefix+'_300x250_2': ShowAd2(); break;
+					case adPrefix+'_728x90': ShowAd3(); break;
+					case adPrefix+'_336x280': ShowAd4(); break;
+					case adPrefix+'_336x280_2': ShowAd7(); break;
+					case adPrefix+'_728x90_m': ShowAd8(); break;
+					case adPrefix+'_970x250': ShowAd9(); break;
+					case adPrefix+'_300x600': ShowAd10(); break;
+				}
+			}
+
+			var contentDiv = document.getElementById("openfl-content");
+			var w2 = contentDiv.offsetWidth;
+			var h2 = window.innerHeight;
+			var aScaleX = screenW / w2;
+			var aScaleY = screenH / h2;
+			var adPosX = w2 / 2 + theX / aScaleX;
+			var adPosY = h2 / 2 + theY / aScaleY;
+			var aDivHeight = aDiv.offsetHeight; if (aDivHeight <= 0) aDivHeight = 280;
+			var aDivWidth = aDiv.offsetWidth; if (aDivWidth <= 0) aDivWidth = 336;
+			if (yAlign == "center") adPosY -= aDivHeight / 2;
+			else if (yAlign == "bottom") adPosY -= aDivHeight;
+			if (xAlign == "center") adPosX -= aDivWidth / 2;
+			else if (xAlign == "right") adPosX -= aDivWidth;
+			adPosX += contentDiv.offsetLeft;
+			aDiv.style.left = adPosX + "px";
+			aDiv.style.top = adPosY + "px";
+		}
+
+		function GamePlayStart() {
+			if(typeof gCrazySDK !== 'undefined')
+			{
+				console.log("GamePlayStart");
+				gCrazySDK.gameplayStart();
+			}
+		}
+
+		function GamePlayStop() {
+			if(typeof gCrazySDK !== 'undefined')
+			{
+				console.log("GamePlayStop");
+				gCrazySDK.gameplayStop();
+			}
+		}
+
+		function HappyTime() {
+			if(typeof gCrazySDK !== 'undefined')
+			{
+				console.log("happytime");
+				gCrazySDK.happytime();
+			}
+		}
+
+		// Show 160x600 side banners during page load if window is wide enough
+		function ShowInitialSideBanners() {
+			// Neither Opti nor Setupad has a 160x600 unit configured for us, and under both the
+			// page owns its own containers — there is nothing here to show.
+			if (window.optiAds || window.setupadAds) return;
+			var w = window.innerWidth;
+			var h = window.innerHeight;
+			if (w < 1024 || h < 600) return;
+
+			var leftDiv, rightDiv;
+			if (window.ascAds) {
+				leftDiv = ascGetOrCreateDiv(adPrefix+'_160x600');
+				rightDiv = ascGetOrCreateDiv(adPrefix+'_160x600_2');
+			} else {
+				leftDiv = document.getElementById(adPrefix+'_160x600');
+				rightDiv = document.getElementById(adPrefix+'_160x600_2');
+			}
+
+			if (leftDiv) {
+				leftDiv.style.display = 'block';
+				leftDiv.style.visibility = 'visible';
+				leftDiv.style.width = '160px';
+				leftDiv.style.left = '0px';
+				leftDiv.style.top = '50%';
+				leftDiv.style.transform = 'translateY(-50%)';
+			}
+			if (rightDiv) {
+				rightDiv.style.display = 'block';
+				rightDiv.style.visibility = 'visible';
+				rightDiv.style.width = '160px';
+				rightDiv.style.left = 'auto';
+				rightDiv.style.right = '0px';
+				rightDiv.style.top = '50%';
+				rightDiv.style.transform = 'translateY(-50%)';
+			}
+
+			ShowAd1();
+			console.log('ShowInitialSideBanners: ' + w + 'x' + h);
+		}
+		window.addEventListener('load', ShowInitialSideBanners);
+
+		// ---------------------------------------------------------------------------------
+		// Ad slot debug overlay: add ?addebug=1 to the URL.
+		//
+		// Tints every ad div and labels it with the zone name, so you can tell an ad that
+		// isn't being requested from one that's requested but unfilled, and see whether the
+		// slot is landing where you meant it to. Off unless the flag is present.
+		// ---------------------------------------------------------------------------------
+		window.adDebug = /[?&]addebug=1/.test(window.location.search);
+		if (window.adDebug) {
+			var adDebugSlots = [prerollId, adPrefix+'_160x600', adPrefix+'_160x600_2', adPrefix+'_300x250',
+				adPrefix+'_300x250_2', adPrefix+'_336x280', adPrefix+'_336x280_2', adPrefix+'_728x90',
+				adPrefix+'_728x90_m', adPrefix+'_970x250', adPrefix+'_300x600'];
+			// Under Setupad the containers are the unit ids, not the size names.
+			for (var setupadDebugUnit in setupadUnits) adDebugSlots.push(setupadDebugUnit);
+
+			function paintAdDebug() {
+				adDebugSlots.forEach(function(id) {
+					var el = document.getElementById(id) || (typeof ascGetDiv === 'function' ? ascGetDiv(id) : null);
+					if (!el) return;
+					var live = setupadUnits[id] ? setupadLive[id] : aipZoneLive[id];
+					var shown = el.style.display !== 'none' && el.style.visibility !== 'hidden';
+					// Magenta = requested and live, cyan = shown but never display()'d,
+					// dim grey = hidden.
+					el.style.outline = '2px solid ' + (live ? '#ff00ff' : (shown ? '#00ffff' : '#666'));
+					el.style.backgroundColor = live ? 'rgba(255,0,255,0.28)' : (shown ? 'rgba(0,255,255,0.22)' : 'rgba(120,120,120,0.15)');
+					if (!el.dataset.adDebugLabel) {
+						var lbl = document.createElement('div');
+						lbl.style.cssText = 'position:absolute;top:0;left:0;font:11px/1.3 monospace;color:#fff;background:rgba(0,0,0,0.75);padding:2px 4px;z-index:9999;pointer-events:none;white-space:nowrap;';
+						el.appendChild(lbl);
+						el.dataset.adDebugLabel = '1';
+						el._adDebugLbl = lbl;
+					}
+					if (el._adDebugLbl && !el._adDebugLbl.parentNode) {
+						// HideAd() wipes innerHTML, which takes the label with it.
+						el.appendChild(el._adDebugLbl);
+					}
+					if (el._adDebugLbl) {
+						el._adDebugLbl.textContent = id + (live ? ' [live]' : (shown ? ' [shown, not displayed]' : ' [hidden]'))
+							+ ' ' + el.offsetWidth + 'x' + el.offsetHeight;
+					}
+				});
+			}
+			window.addEventListener('load', function() {
+				paintAdDebug();
+				setInterval(paintAdDebug, 500);
+				console.log('[ADDEBUG] overlay on. prefix=' + adPrefix + ' preroll=' + prerollId);
+			});
+		}
+
+		var scrollerMessage = "   WELCOME TO HOCKEY BROS!";
+
+		const element = document.getElementById('openfl-content');
+		// Ensure 'element' is not null before adding event listeners if there's any chance it might not exist yet.
+		// Function to keep the element focused
+		function keepFocus() {
+			element.focus();
+		}
+		// Event listeners to restore focus when lost
+		element.addEventListener('blur', keepFocus);
+		element.addEventListener('focusout', keepFocus);
+	</script>
+	<script>
+		function trackSaveLifespan() {
+			try {
+				const NOW = Date.now();
+				const MS_IN_DAY = 1000 * 60 * 60 * 24;
+				
+				let saveCreated = localStorage.getItem('bros_save_created_ts');
+				let sessionCount = parseInt(localStorage.getItem('bros_local_session_count') || '0', 10);
+				
+				sessionCount++;
+				localStorage.setItem('bros_local_session_count', sessionCount);
+
+				let ageBucket = "";
+
+				if (!saveCreated) {
+					// No save found. Mark the creation time.
+					localStorage.setItem('bros_save_created_ts', NOW);
+					ageBucket = "0_Days (New or Wiped)";
+				} else {
+					// Save exists! Calculate age in days.
+					let ageInDays = Math.floor((NOW - parseInt(saveCreated, 10)) / MS_IN_DAY);
+					
+					if (ageInDays === 0) ageBucket = "0_Days (Same Day Return)";
+					else if (ageInDays === 1) ageBucket = "1_Day";
+					else if (ageInDays >= 2 && ageInDays <= 3) ageBucket = "2_to_3_Days";
+					else if (ageInDays >= 4 && ageInDays <= 7) ageBucket = "4_to_7_Days";
+					else ageBucket = "8_Plus_Days";
+				}
+
+				// Fire custom GA4 Event
+				gtag('event', 'Save_Persistence_Check', {
+					'save_age_bucket': ageBucket,
+					'local_session_count': sessionCount
+				});
+			} catch (e) {
+				// Catches strict incognito modes where localStorage is fully blocked
+				gtag('event', 'Save_Persistence_Check', {
+					'save_age_bucket': 'Storage_Blocked'
+				});
+			}
+		}
+		trackSaveLifespan();
+	</script>
+
+
+</body>
+</html>
